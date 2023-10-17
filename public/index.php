@@ -9,8 +9,14 @@
     <title>NVVN SDG's</title>
 </head>
 <body>
-    <header class="header"></header>
-    <main class="main"></main>
-    <footer class="footer"></footer>
+    <nav class="nav">NAVIGATIE</nav>
+    <header class="header">CTA</header>
+    <main class="main">
+        <section class="sdg"></section>
+        <section class="over">
+            
+        </section>
+    </main>
+    <footer class="footer">CONTACTINFO</footer>
 </body>
 </html>
