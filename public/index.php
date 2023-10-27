@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap" rel="stylesheet">
+    <script src="js/846de9e07b.js"></script>
     <link rel="stylesheet" href="csss/style.css">
     <script src="js/main.js" defer></script>
     <title>NVVN SDG's</title>
@@ -26,22 +27,21 @@
     </section>
     <main class="main">
         <section class="sdg">
-            <article class="sdg__card">
-                <?php 
-                    include '../source/config.php';
-                ?>
-            </article>
-            <article class="sdg__card">
-                <?php 
-                    include '../source/config.php';
-                ?>
-            </article>
-            <article class="sdg__card">
-                <?php 
-                    include '../source/config.php';
-                ?>
-            </article>
-            <div class="sdg__arrows"></div>
+            <div class="sdg__cards">
+                <article class="sdg__card">
+                    <?php include '../source/config.php'; ?>
+                </article>
+                <article class="sdg__card">
+                    <?php include '../source/config.php'; ?>
+                </article>
+                <article class="sdg__card">
+                    <?php include '../source/config.php'; ?>
+                </article>
+            </div>
+            <div class="sdg__arrows">
+                <i id="js--arrowLeft" class="fa-solid fa-chevron-left sdg__arrowsArrow"></i>
+                <i id="js--arrowRight" class="fa-solid fa-chevron-right sdg__arrowsArrow"></i>
+            </div>
         </section>
         <section class="over">
         </section>
