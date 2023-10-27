@@ -18,7 +18,6 @@
         <ul class="header__navigation">
         </ul>
     </header>
-    <header class="header">CTA</header>
     <section class="heading">
         <div class="heading__div">
             <h1 class="heading__divH1"></h1>
