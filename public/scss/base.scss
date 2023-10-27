@@ -1,7 +1,7 @@
-@use "abstract/fonts";
-@use "abstract/colors";
+@use "./abstract/fonts";
+@use "./abstract/colors";
 
 body{
-    font-family: colors.$pFont;
-    background-color: colors.$mainColor;
+    font-family: fonts.$pFont;
+    background: colors.$mainColor;
 }
