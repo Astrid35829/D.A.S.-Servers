@@ -9,6 +9,12 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    padding: 4rem 0;
+
+    &__title{
+        font-size: 4rem;
+        font-family: fonts.$h2Font;
+    }
 
     &__cards{
         width: 100%;

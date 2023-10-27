@@ -1,0 +1,8 @@
+@use "../../abstract/colors";
+
+.header{
+    width: 100%;
+    height: 7rem;
+    padding: 2rem;
+    background: colors.$mainColor;
+}

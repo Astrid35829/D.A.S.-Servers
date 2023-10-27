@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap" rel="stylesheet">
     <script src="js/846de9e07b.js"></script>
     <link rel="stylesheet" href="csss/style.css">
-    <script src="js/main.js" defer></script>
+    <script src="js/mainn.js" defer></script>
     <title>NVVN SDG's</title>
 </head>
 <body>
@@ -22,11 +22,12 @@
     <section class="heading">
         <div class="heading__div">
             <h1 class="heading__divH1"></h1>
-            <button class="cta"></button>
+            <button class="cta">cta</button>
         </div>
     </section>
     <main class="main">
         <section class="sdg">
+            <h2 class="sdg__title">SDG's</h2>
             <div class="sdg__cards">
                 <article class="sdg__card">
                     <?php include '../source/config.php'; ?>

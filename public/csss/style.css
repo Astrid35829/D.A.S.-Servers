@@ -15,7 +15,22 @@ body {
 }
 
 .main {
+  height: 100%;
+  width: 100%;
   padding: 6rem 8rem;
+  gap: 6rem;
+}
+
+.header {
+  width: 100%;
+  height: 7rem;
+  padding: 2rem;
+  background: #7dc5da;
+}
+
+.heading {
+  background: lightblue;
+  height: 60rem;
 }
 
 .sdg {
@@ -26,6 +41,11 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  padding: 4rem 0;
+}
+.sdg__title {
+  font-size: 4rem;
+  font-family: "Arimo", sans-serif;
 }
 .sdg__cards {
   width: 100%;
@@ -72,6 +92,19 @@ body {
   justify-content: center;
   align-items: center;
   gap: 4rem;
+}
+
+.over {
+  width: 100%;
+  height: 40rem;
+  background: lightblue;
+}
+
+.footer {
+  width: 100%;
+  height: 6rem;
+  padding: 4rem;
+  background: #7dc5da;
 }
 
 /*# sourceMappingURL=style.css.map */
