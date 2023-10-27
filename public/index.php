@@ -26,9 +26,21 @@
     </section>
     <main class="main">
         <section class="sdg">
-            <article class="sdg__card"></article>
-            <article class="sdg__card"></article>
-            <article class="sdg__card"></article>
+            <article class="sdg__card">
+                <?php 
+                    include '../source/config.php';
+                ?>
+            </article>
+            <article class="sdg__card">
+                <?php 
+                    include '../source/config.php';
+                ?>
+            </article>
+            <article class="sdg__card">
+                <?php 
+                    include '../source/config.php';
+                ?>
+            </article>
             <div class="sdg__arrows"></div>
         </section>
         <section class="over">
