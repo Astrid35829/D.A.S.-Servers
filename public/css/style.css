@@ -1,16 +1,18 @@
-*, *::before, *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 5 |     font-family: colors.$pFont;
+ *   |                  ^^^^^^^^^^^^^
+ *   '
+ *   scss\base.scss 5:18  @use
+ *   scss\style.scss 2:1  root stylesheet */
 
-html {
-  font-size: 62.5%;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 5 \2502      font-family: colors.$pFont;\d\a   \2502                   ^^^^^^^^^^^^^\a   \2575 \a   scss\\base.scss 5:18  @use\a   scss\\style.scss 2:1  root stylesheet";
 }
-
-body {
-  font-family: sans-serif;
-  background-color: lightslategray;
-}
-
-/*# sourceMappingURL=style.css.map */
