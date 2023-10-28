@@ -29,15 +29,11 @@
         <section class="sdg">
             <h2 class="sdg__title">SDG's</h2>
             <div class="sdg__cards">
-                <article class="sdg__card">
-                    <?php include '../source/config.php'; ?>
-                </article>
-                <article class="sdg__card">
-                    <?php include '../source/config.php'; ?>
-                </article>
-                <article class="sdg__card">
-                    <?php include '../source/config.php'; ?>
-                </article>
+                <?php 
+                    for($i = 0; $i < 3; $i++){
+                        include('../source/config.php');
+                    }
+                ?>
             </div>
             <div class="sdg__arrows">
                 <i id="js--arrowLeft" class="fa-solid fa-chevron-left sdg__arrowsArrow"></i>
