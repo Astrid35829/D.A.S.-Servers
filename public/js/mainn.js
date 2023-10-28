@@ -1,11 +1,7 @@
 const leftArrow = document.getElementById("js--arrowLeft");
 const rightArrow = document.getElementById("js--arrowRight");
 
-leftArrow.onclick = function(){
-    console.log("yuh");
-};
-
-rightArrow.onclick = function(callPHPFuntion){
+function callPHPFuntion(){
     let xhr = new XMLHttpRequest();
     xhr.open("GET", "../../source/view/card.php/", true);
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
@@ -24,4 +20,12 @@ rightArrow.onclick = function(callPHPFuntion){
         }
     }
     xhr.send("call=randomSDG()");
+};
+
+rightArrow.onclick = function(){
+    callPHPFuntion();
+};
+
+leftArrow.onclick = function(){
+    callPHPFuntion();
 };
