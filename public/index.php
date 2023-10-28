@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap" rel="stylesheet">
     <script src="js/846de9e07b.js"></script>
-    <link rel="stylesheet" href="csss/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/mainn.js" defer></script>
     <title>NVVN SDG's</title>
 </head>
@@ -29,15 +29,13 @@
         <section class="sdg">
             <h2 class="sdg__title">SDG's</h2>
             <div id="js--shuffle" class="sdg__cards">
+                <i id="js--arrowLeft" class="fa-solid fa-angle-left sdg__arrowsArrow"></i>
                 <?php 
                     include('../source/view/card.php');
                     for($i = 0; $i < 3; $i++){
                         randomSDG();
                     }
                 ?>
-            </div>
-            <div class="sdg__arrows">
-                <i id="js--arrowLeft" class="fa-solid fa-angle-left sdg__arrowsArrow"></i>
                 <i id="js--arrowRight" class="fa-solid fa-angle-right sdg__arrowsArrow"></i>
             </div>
         </section>
