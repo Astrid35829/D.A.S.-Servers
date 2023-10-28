@@ -28,10 +28,11 @@
     <main class="main">
         <section class="sdg">
             <h2 class="sdg__title">SDG's</h2>
-            <div class="sdg__cards">
+            <div id="js--shuffle" class="sdg__cards">
                 <?php 
+                    include('../source/view/card.php');
                     for($i = 0; $i < 3; $i++){
-                        include('../source/view/card.php');
+                        randomSDG();
                     }
                 ?>
             </div>
