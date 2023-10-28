@@ -31,7 +31,7 @@
             <div class="sdg__cards">
                 <?php 
                     for($i = 0; $i < 3; $i++){
-                        include('../source/config.php');
+                        include('../source/view/card.php');
                     }
                 ?>
             </div>
