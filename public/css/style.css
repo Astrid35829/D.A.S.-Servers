@@ -51,18 +51,24 @@ body {
   font-size: 4rem;
   font-family: "Arimo", sans-serif;
 }
+.sdg__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
 .sdg__cards {
   width: 100%;
   height: 35rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
-  padding: 2rem 10rem;
+  gap: 3rem;
+  padding: 2rem 8rem;
 }
 .sdg__card {
   background: #7dc5da;
-  width: 33.33%;
+  width: 35rem;
   height: 100%;
   border-radius: 2rem;
   padding: 4rem;
