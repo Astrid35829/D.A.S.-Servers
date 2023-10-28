@@ -37,8 +37,8 @@
                 ?>
             </div>
             <div class="sdg__arrows">
-                <i id="js--arrowLeft" class="fa-solid fa-chevron-left sdg__arrowsArrow"></i>
-                <i id="js--arrowRight" class="fa-solid fa-chevron-right sdg__arrowsArrow"></i>
+                <i id="js--arrowLeft" class="fa-solid fa-angle-left sdg__arrowsArrow"></i>
+                <i id="js--arrowRight" class="fa-solid fa-angle-right sdg__arrowsArrow"></i>
             </div>
         </section>
         <section class="over">
