@@ -42,12 +42,13 @@
         <img src="img/logoSDGs.png" alt="Een wiel met de sdg kleuren naast een tekst met The global Goals for sustainable development" class="nav__logo">
         <ul class="nav__list">
             <li class="nav__listItem"><a href="index.php" class="nav__tab">Home</a></li>
+            <li class="nav__listItem"><a href="#game" class="nav__tab">Game</a></li>
             <li class="nav__listItem"><a href="#sdg" class="nav__tab">SDG's</a></li>
             <li class="nav__listItem"><a href="#over" class="nav__tab">Over</a></li>
             <li class="nav__listItem"><a href="#contact" class="nav__tab">Contact</a></li>
         </ul>
     </nav>
-    <header class="header">
+    <header id="game" class="header">
         <div class="header__div">
             <h1 class="header__divH1"></h1>
             <button class="cta">cta</button>
@@ -81,6 +82,8 @@
             <img src="img/cirkelSDGs.png" alt="" class="over__img">
         </section>
     </main>
-    <footer id="contact" class="footer"></footer>
+    <footer id="contact" class="footer">
+
+    </footer>
 </body>
 </html>

@@ -28,13 +28,14 @@
 
     &__tab{
         text-decoration: none;
-    }
-
-    &__tab:visited{
         color: colors.$fontColor;
     }
 
     &__tab:hover{
         color: colors.$accentColor;
+    }
+
+    &__tab:visited{
+        color: colors.$fontColor;
     }
 }
