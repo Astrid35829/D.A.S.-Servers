@@ -22,7 +22,15 @@
             <article class="modalDiv__article">
                 <h2 id="js--modalTitle" class="modalDiv__articleTitle">bhidsjoks</h2>
                 <p class="modalDiv__articleIntro">we stay cool hbusijd</p>
-                <p class="modalDiv__articleInformation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ipsam consequatur doloremque dolor aut placeat, fuga voluptas nostrum, corporis odit fugit! Laborum omnis harum sunt facere dolorem deleniti. Delectus, eveniet.</p>
+                <p class="modalDiv__articleInformation">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Velit, ipsam consequatur doloremque dolor aut placeat, 
+                    fuga voluptas nostrum, corporis odit fugit! Laborum omnis 
+                    harum sunt facere dolorem deleniti. Delectus, eveniet.
+                </p>
+                <a class="modalDiv__articleLink" href="https://sdgs.un.org/goals" target="_blank">
+                    Klik hier voor meer informatie
+                </a>
             </article>
             <figure class="modalDiv__figure">
                 <img id="js--modalImage" src="" alt="" class="modalDiv__figureImg">

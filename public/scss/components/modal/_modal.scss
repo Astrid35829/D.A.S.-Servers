@@ -43,12 +43,12 @@
 
         &__article{
             width: 50%;
-            height: 85%;
+            height: 55%;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            gap: 4rem;
-            padding: 12rem 2rem;
+            gap: 3rem;
+            padding: 10rem 2rem;
 
             &Title{
                 font-size: 400%;
@@ -64,6 +64,15 @@
                 width: 100%;
                 height: 100%;
                 font-size: 200%;
+            }
+
+            &Link{
+                font-size: 150%;
+                color: colors.$accentColor;
+
+                &:hover{
+                    color: colors.$buttonColor;
+                }
             }
         }
 
