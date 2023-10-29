@@ -30,11 +30,13 @@ leftArrow.onclick = function(){
     callPHPFuntion();
 };
 
-const modalLink = document.getElementsByClassName("sdg__cardLink");
 const modal = document.getElementById("js--modal");
+const modalExit = document.getElementById("js--modalExit");
+
 let modalHidden = true;
-for(let i = 0; i < modalLink.length; i++){
-    modalLink[i].onclick = function(){
+
+document.body.onclick = function(event){
+    if (event.target.classList.contains('sdg__cardLink')){
         if(modalHidden === true){
             document.getElementsByClassName("header")[0].style.display = "none";
             document.getElementsByClassName("heading")[0].style.display = "none";
@@ -42,11 +44,9 @@ for(let i = 0; i < modalLink.length; i++){
             document.getElementsByClassName("footer")[0].style.display = "none";
             modal.style.display = "flex";
             modalHidden = false;
-        }
     }
-};
+}};
 
-const modalExit = document.getElementById("js--modalExit");
 modalExit.onclick = function(){
     if(modalHidden === false){
         document.getElementsByClassName("header")[0].style.display = "flex";

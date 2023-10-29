@@ -123,6 +123,10 @@ body {
   align-items: center;
   gap: 4rem;
 }
+.sdg__arrowsArrow:hover {
+  color: #228c22;
+  cursor: pointer;
+}
 
 .over {
   width: 100%;
@@ -161,6 +165,10 @@ body {
   left: 0;
   transform: translate(100%, 100%);
   color: #7dc5da;
+}
+.modalReturn:hover {
+  color: #228c22;
+  cursor: pointer;
 }
 .modalDiv {
   width: 100%;
