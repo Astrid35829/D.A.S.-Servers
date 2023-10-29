@@ -10,11 +10,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap" rel="stylesheet">
     <script src="js/846de9e07b.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="csss/style.css">
+    <script src="js/mainn.js" defer></script>
     <title>NVVN SDG's</title>
 </head>
 <body>
+    <section id="js--modal" class="modal">
+        <nav class="modalHeader">
+        </nav>
+        <i id="js--modalExit" class="fa-solid fa-arrow-left modalReturn"></i>
+        <div class="modalDiv">
+            <article class="modalDiv__article">
+                <h2 class="modalDiv__articleTitle">bhidsjoks</h2>
+                <p class="modalDiv__articleIntro">we stay cool hbusijd</p>
+                <p class="modalDiv__articleInformation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ipsam consequatur doloremque dolor aut placeat, fuga voluptas nostrum, corporis odit fugit! Laborum omnis harum sunt facere dolorem deleniti. Delectus, eveniet.</p>
+            </article>
+            <figure class="modalDiv__figure"><img src="img/cirkelSDGs.png" alt="" class="modalDiv__figureImg"></figure>
+        </div>
+        <div class="modalFooter"></div>
+    </section>
     <header class="header">
         <ul class="header__navigation">
         </ul>

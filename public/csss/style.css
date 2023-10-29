@@ -51,18 +51,25 @@ body {
   font-size: 4rem;
   font-family: "Arimo", sans-serif;
 }
+.sdg__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
 .sdg__cards {
   width: 100%;
   height: 35rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
-  padding: 2rem 10rem;
+  gap: 3rem;
+  padding: 2rem 8rem;
 }
 .sdg__card {
+  position: relative;
   background: #7dc5da;
-  width: 33.33%;
+  width: 35rem;
   height: 100%;
   border-radius: 2rem;
   padding: 4rem;
@@ -71,6 +78,10 @@ body {
   justify-content: space-evenly;
   align-items: center;
   gap: 2rem;
+}
+.sdg__card:hover .sdg__cardLink {
+  opacity: 1;
+  transition: 0.2s;
 }
 .sdg__cardImg {
   width: 10rem;
@@ -89,6 +100,20 @@ body {
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
+}
+.sdg__cardLink {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  left: 0;
+  transform: translate(35%, -50%);
+  font-size: 150%;
+  font-weight: 700;
+  opacity: 0;
+}
+.sdg__cardLink:hover {
+  color: #228c22;
+  cursor: pointer;
 }
 .sdg__arrowsArrow {
   color: #7dc5da;
@@ -109,6 +134,77 @@ body {
   width: 100%;
   height: 6rem;
   padding: 4rem;
+  background: #7dc5da;
+}
+
+.modal {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modalHeader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7rem;
+  padding: 1rem;
+  background: #7dc5da;
+}
+.modalReturn {
+  position: fixed;
+  font-size: 500%;
+  top: 4rem;
+  left: 0;
+  transform: translate(100%, 100%);
+  color: #7dc5da;
+}
+.modalDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 10rem;
+}
+.modalDiv__article {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4rem;
+  padding: 12rem 2rem;
+}
+.modalDiv__articleTitle {
+  font-size: 500%;
+}
+.modalDiv__articleIntro {
+  font-size: 300%;
+}
+.modalDiv__articleInformation {
+  width: 100%;
+  height: 100%;
+  font-size: 200%;
+}
+.modalDiv__figure {
+  width: 50rem;
+  height: 50rem;
+}
+.modalDiv__figureImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.modalFooter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6rem;
   background: #7dc5da;
 }
 
