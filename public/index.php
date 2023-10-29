@@ -16,16 +16,17 @@
 </head>
 <body>
     <section id="js--modal" class="modal">
-        <nav class="modalHeader">
-        </nav>
+        <nav class="modalHeader"></nav>
         <i id="js--modalExit" class="fa-solid fa-arrow-left modalReturn"></i>
         <div class="modalDiv">
             <article class="modalDiv__article">
-                <h2 class="modalDiv__articleTitle">bhidsjoks</h2>
+                <h2 id="js--modalTitle" class="modalDiv__articleTitle">bhidsjoks</h2>
                 <p class="modalDiv__articleIntro">we stay cool hbusijd</p>
                 <p class="modalDiv__articleInformation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ipsam consequatur doloremque dolor aut placeat, fuga voluptas nostrum, corporis odit fugit! Laborum omnis harum sunt facere dolorem deleniti. Delectus, eveniet.</p>
             </article>
-            <figure class="modalDiv__figure"><img src="img/cirkelSDGs.png" alt="" class="modalDiv__figureImg"></figure>
+            <figure class="modalDiv__figure">
+                <img id="js--modalImage" src="" alt="" class="modalDiv__figureImg">
+            </figure>
         </div>
         <div class="modalFooter"></div>
     </section>

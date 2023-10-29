@@ -37,14 +37,44 @@ let modalHidden = true;
 
 document.body.onclick = function(event){
     if (event.target.classList.contains('sdg__cardLink')){
-        if(modalHidden === true){
+        if (modalHidden === true) {
             document.getElementsByClassName("header")[0].style.display = "none";
             document.getElementsByClassName("heading")[0].style.display = "none";
             document.getElementsByClassName("main")[0].style.display = "none";
             document.getElementsByClassName("footer")[0].style.display = "none";
-            modal.style.display = "flex";
-            modalHidden = false;
-    }
+            const sdgCard = event.target.closest('.sdg__card');    
+            if(sdgCard){
+                const sdgId = sdgCard.getAttribute("data-sdg-id");
+                const sdgTitle = sdgCard.querySelector(".sdg__cardH2").textContent;
+                const sdgIntro = sdgCard.querySelector(".sdg__card--intro").textContent;
+                const sdgPhoto = sdgCard.querySelector(".sdg__cardImg");
+                const sdgPhotoURL = sdgPhoto.getAttribute("src");
+                const modalImage = document.getElementById('js--modalImage');
+                modalImage.setAttribute("src", sdgPhotoURL);
+                const modalTitle = document.getElementById("js--modalTitle");
+                modalTitle.innerHTML = "";
+                const xhrModal = new XMLHttpRequest();
+                xhrModal.open("GET", "../../source/view/card.php/?sdg_id=" + sdgId, true);
+                xhrModal.onreadystatechange = function(){
+                    if(xhrModal.readyState === XMLHttpRequest.DONE && xhrModal.status === 200){
+                        let modalResponse = xhrModal.responseText;
+                        let modalDivContent = modalResponse.match(/<h2[^>]*id="js--modalTitle"[^>]*>[\s\S]*?<\/h2>/);
+                        if(modalDivContent){
+                            modalResponse = modalDivContent[0];
+                        }
+                        else{
+                            console.log("not found uzjmknj");
+                        }
+                        modal.style.display = "flex";
+                        modalTitle.innerHTML = sdgTitle;
+                        console.log(modalResponse);
+                        console.log(modalTitle);
+                        document.getElementsByClassName("modalDiv__articleIntro")[0].innerHTML = sdgIntro;
+                        modalHidden = false;
+                    }
+                };
+            xhrModal.send();
+        };
 }};
 
 modalExit.onclick = function(){
@@ -56,4 +86,4 @@ modalExit.onclick = function(){
         modal.style.display = "none";
         modalHidden = true;
     }
-};
+}};
