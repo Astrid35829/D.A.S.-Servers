@@ -51,7 +51,7 @@
     <header id="game" class="header">
         <div class="header__div">
             <h1 class="header__divH1"></h1>
-            <button class="cta">cta</button>
+            <button class="cta">klick hier!</button>
         </div>
     </header>
     <main class="main">
