@@ -38,8 +38,8 @@ let modalHidden = true;
 document.body.onclick = function(event){
     if (event.target.classList.contains('sdg__cardLink')){
         if (modalHidden === true) {
+            document.getElementsByClassName("nav")[0].style.display = "none";
             document.getElementsByClassName("header")[0].style.display = "none";
-            document.getElementsByClassName("heading")[0].style.display = "none";
             document.getElementsByClassName("main")[0].style.display = "none";
             document.getElementsByClassName("footer")[0].style.display = "none";
             const sdgCard = event.target.closest('.sdg__card');    
@@ -79,8 +79,8 @@ document.body.onclick = function(event){
 
 modalExit.onclick = function(){
     if(modalHidden === false){
+        document.getElementsByClassName("nav")[0].style.display = "flex";
         document.getElementsByClassName("header")[0].style.display = "flex";
-        document.getElementsByClassName("heading")[0].style.display = "flex";
         document.getElementsByClassName("main")[0].style.display = "flex";
         document.getElementsByClassName("footer")[0].style.display = "flex";
         modal.style.display = "none";

@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap" rel="stylesheet">
     <script src="js/846de9e07b.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/mainn.js" defer></script>
+    <script src="js/main.js" defer></script>
     <title>NVVN SDG's</title>
 </head>
 <body>
