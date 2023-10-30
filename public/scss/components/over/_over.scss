@@ -4,16 +4,16 @@
     width: 100%;
     height: 40rem;
     padding: 4rem;
-    background: red;
+    background: lightblue;
     @include mixins.flexCenter;
     gap: 4rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
 
     &__text{
         width: 60%;
         @include mixins.flexCenter;
         flex-direction: column;
-        gap: 4rem;
+        gap: 2rem;
     }
 
     &__img{

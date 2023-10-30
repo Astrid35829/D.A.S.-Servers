@@ -65,7 +65,15 @@ body {
 .header {
   background: #add8e6;
   height: 60rem;
-  padding-top: 10rem;
+}
+
+.cta {
+  width: 5rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .sdg {
@@ -169,6 +177,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 4rem;
+  font-size: 1.5rem;
 }
 .over__text {
   width: 60%;
@@ -176,10 +185,10 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 4rem;
+  gap: 2rem;
 }
 .over__img {
-  width: 40%;
+  height: 30rem;
 }
 
 .footer {
