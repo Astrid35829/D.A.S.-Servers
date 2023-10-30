@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js" defer></script>
     <title>NVVN SDG's</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/cirkelSDGs.png" />
 </head>
 <body>
     <section id="js--modal" class="modal">
@@ -94,7 +95,34 @@
         </section>
     </main>
     <footer id="contact" class="footer">
-
+        <article class="footer__email">
+            <h2 class="email__h2">Vragen?</h2>
+            <p class="email__p">Stuur een email naar  <a href = "mailto: info@sdgnederland.nl">info@sdgnederland.nl</a></p>
+        </article>
+        <article class="footer__adres">
+            <h2 class="adres__h2">Voor bezoek</h2>
+            <p class="adres__p">NVVN</p>
+            <p class="adres__p">Eisenhowerlaan 128</p>
+            <p class="adress__p">3527HJ Utrecht</p>
+        </article>
+        <article class="footer__social">
+            <div class="social__facebook">
+                <i class="fa-brands fa-facebook"></i>
+                <a href="https://www.facebook.com/sdgnederland/">SDG Nederland</a>
+            </div>
+            <div class="social__instagram">
+                <i class="fa-brands fa-instagram"></i>
+                <a href="https://www.instagram.com/nederlandse_vereniging_vn/">nederlandse_vereniging_vn</a>
+            </div>
+            <div class="social__linkedin">
+                <i class="fa-brands fa-linkedin"></i>
+                <a href="https://www.linkedin.com/company/nederlandse-vereniging-voor-de-verenigde-naties/">Nederlandse Vereniging voor de Verenigde Naties</a>
+            </div>
+            <div class="social__twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+                <a href="https://twitter.com/SDGNederland">@SDGNederland</a>
+            </div>
+        </article>
     </footer>
 </body>
 </html>

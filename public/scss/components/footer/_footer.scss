@@ -1,8 +1,11 @@
 @use "../../abstract/colors";
+@use "../../abstract/mixins";
 
 .footer{
     width: 100%;
-    height: 6rem;
+    height: 10rem;
     padding: 4rem;
     background: colors.$mainColor;
+    @include mixins.flexCenter;
+    justify-content: space-evenly;
 }
