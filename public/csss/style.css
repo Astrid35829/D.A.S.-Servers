@@ -64,42 +64,19 @@ body {
 }
 
 .header {
-  background: radial-gradient(rgba(28, 203, 51, 0.9), #214021);
-  height: 80rem;
+  background: #add8e6;
+  height: 60rem;
   padding-top: 10rem;
+}
+
+.cta {
+  width: 5rem;
+  height: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  position: relative;
-}
-.header__img {
-  width: 50rem;
-  height: 50rem;
-  object-fit: contain;
-}
-
-.cta {
-  width: 20rem;
-  height: 12rem;
-  background: none;
-  border: solid 0.3rem rgb(0, 0, 0);
-  color: rgb(0, 0, 0);
-  border-radius: 0.5rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -15%);
-  font-size: 2rem;
-  font-weight: 600;
-  box-shadow: 0 1rem 1rem 0 rgba(13, 133, 29, 0.9);
-}
-
-.cta:hover {
-  background: #FFB000;
-  border: solid 0.3rem rgb(0, 0, 0);
-  color: rgb(0, 0, 0);
-  cursor: pointer;
+  background: black;
 }
 
 .sdg {
@@ -287,7 +264,7 @@ body {
   color: #228c22;
 }
 .modalDiv__articleLink:hover {
-  color: #FFB000;
+  color: #1ccb33;
 }
 .modalDiv__figure {
   width: 50rem;

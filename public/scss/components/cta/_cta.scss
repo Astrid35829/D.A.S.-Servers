@@ -1,8 +1,25 @@
+@use "../../abstract/colors";
 .cta{
-    width: 5rem;
-    height: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    width: 20rem;
+    height: 12rem;
+    background:none;
+    border: solid 0.3rem colors.$buttonColor_3; 
+    color: colors.$buttonColor_3;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    font-size: 2rem;
+    font-weight: 600;
+    box-shadow: 0 1rem 1rem 0  rgba(13, 133, 29, 0.9) ;
+
+
+  }
+
+  .cta:hover{
+    background:colors.$buttonColor ;
+    border: solid 0.3rem colors.$buttonColor_3;
+    color:colors.$buttonColor_3 ;
+  cursor: pointer;
   }
