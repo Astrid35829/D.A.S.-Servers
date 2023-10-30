@@ -54,18 +54,28 @@ body {
 }
 .nav__tab {
   text-decoration: none;
-}
-.nav__tab:visited {
   color: white;
 }
 .nav__tab:hover {
   color: #228c22;
+}
+.nav__tab:visited {
+  color: white;
 }
 
 .header {
   background: #add8e6;
   height: 60rem;
   padding-top: 10rem;
+}
+
+.cta {
+  width: 5rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .sdg {
