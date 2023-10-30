@@ -38,18 +38,24 @@
         </div>
         <div class="modalFooter"></div>
     </section>
-    <header class="header">
-        <ul class="header__navigation">
+    <nav class="nav">
+        <img src="img/logoSDGs.png" alt="Een wiel met de sdg kleuren naast een tekst met The global Goals for sustainable development" class="nav__logo">
+        <ul class="nav__list">
+            <li class="nav__listItem"><a href="index.php" class="nav__tab">Home</a></li>
+            <li class="nav__listItem"><a href="#game" class="nav__tab">Game</a></li>
+            <li class="nav__listItem"><a href="#sdg" class="nav__tab">SDG's</a></li>
+            <li class="nav__listItem"><a href="#over" class="nav__tab">Over</a></li>
+            <li class="nav__listItem"><a href="#contact" class="nav__tab">Contact</a></li>
         </ul>
-    </header>
-    <section class="heading">
-        <div class="heading__div">
-            <h1 class="heading__divH1"></h1>
+    </nav>
+    <header id="game" class="header">
+        <div class="header__div">
+            <h1 class="header__divH1"></h1>
             <button class="cta">cta</button>
         </div>
-    </section>
+    </header>
     <main class="main">
-        <section class="sdg">
+        <section id="sdg" class="sdg">
             <h2 class="sdg__title">SDG's</h2>
             <div class="sdg__div">
                 <i id="js--arrowLeft" class="fa-solid fa-angle-left sdg__arrowsArrow"></i>
@@ -64,9 +70,20 @@
                 <i id="js--arrowRight" class="fa-solid fa-angle-right sdg__arrowsArrow"></i>
             </div>
         </section>
-        <section class="over">
+        <section id="over" class="over">
+            <article class="over__text">
+                <h2 class="over__h2">Over</h2>
+                <p class="over__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Assumenda dicta eos cupiditate deserunt ipsa magni! 
+                    Laudantium in doloremque nam quam, ratione nobis ut, 
+                    eveniet aliquam tempore sequi tenetur excepturi perferendis.
+                </p>
+            </article>
+            <img src="img/cirkelSDGs.png" alt="" class="over__img">
         </section>
     </main>
-    <footer class="footer"></footer>
+    <footer id="contact" class="footer">
+
+    </footer>
 </body>
 </html>
