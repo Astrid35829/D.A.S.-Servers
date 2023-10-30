@@ -54,12 +54,13 @@ body {
 }
 .nav__tab {
   text-decoration: none;
-}
-.nav__tab:visited {
   color: white;
 }
 .nav__tab:hover {
   color: #228c22;
+}
+.nav__tab:visited {
+  color: white;
 }
 
 .header {
