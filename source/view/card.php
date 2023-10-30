@@ -14,4 +14,18 @@
     if(isset($_POST['call']) && $_POST['call'] === 'randomSDG'){
         randomSDG();
     };
+
+    function SDGOverzicht(){
+        include 'sdgs.php';
+        foreach($SDGLibary as $sdg);
+        echo '<article class="sdgOverzicht__card">';
+        echo '<figure class="sdgOverzicht__cardFigure">';
+        echo '<img src='.$sdg['photo'].'alt="" class="sdgOverzicht__cardFigure--img">';
+        echo '</figure>';
+        echo '<div class="sdgOverzicht__cardDiv">';
+        echo '<h2 class="sdgOverzicht__cardDiv--title">'.$sdg['title'].'</h2>';
+        echo '<p class="sdgOverzicht__cardDiv--intro">'.$sdg['introText'].'</p>';
+        echo '</div>';
+        echo '</article>';
+    };
 ?>

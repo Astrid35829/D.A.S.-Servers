@@ -1,6 +1,19 @@
 @use "../../abstract/colors";
 
 .header{
-    background: radial-gradient(#D0E7D2, #79AC78);
-    height: 60rem;
+    background:colors.$headerBackground;
+    height: 80rem;
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+    &__img{
+        width: 50rem;
+        height: 50rem;
+        object-fit: contain;
+
+    }
 }
