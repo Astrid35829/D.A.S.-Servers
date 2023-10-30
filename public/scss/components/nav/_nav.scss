@@ -8,11 +8,10 @@
     background: colors.$mainColor--transparent;
     @include mixins.flexCenter;
     justify-content: space-between;
-    position: fixed;
     top: 0;
     left: 0;
     font-size: 2rem;
-    z-index: 1 !important;
+    font-family: 'Barlow', sans-serif;
 
     &__logo{
         width: 14rem;

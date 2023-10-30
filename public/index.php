@@ -73,10 +73,17 @@
         <section id="over" class="over">
             <article class="over__text">
                 <h2 class="over__h2">Over</h2>
-                <p class="over__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Assumenda dicta eos cupiditate deserunt ipsa magni! 
-                    Laudantium in doloremque nam quam, ratione nobis ut, 
-                    eveniet aliquam tempore sequi tenetur excepturi perferendis.
+                <p class="over__p">
+                In de wereld van vandaag staan we voor grote uitdagingen: 
+                armoede, honger, ongelijkheid, 
+                klimaatverandering en de biodiversiteitscrisis zijn slechts enkele van de problemen die we dringend moeten aanpakken. 
+                Grote uitdagingen vereisen gedurfde actie om ze te overwinnen, 
+                en dat is waar de Sustainable Development Goals om de hoek komen kijken. 
+                Ze zijn ontwikkeld om tegen 2030 een groenere, eerlijkere en betere wereld te bouwen, 
+                en we hebben allemaal een rol bij het bereiken ervan.
+                Met deze doelen willen we in 2030 een duurzame wereld voor iedereen bereiken, 
+                waarin niemand wordt buitengesloten. In 2015 hebben alle 193 landen die lid zijn van de Verenigde Naties (VN) de Sustainable Development Goals aangenomen. 
+                De doelen gelden voor alle landen en voor alle mensen. 
                 </p>
             </article>
             <img src="img/cirkelSDGs.png" alt="" class="over__img">
