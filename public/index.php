@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap" rel="stylesheet">
     <script src="js/846de9e07b.js"></script>
-    <link rel="stylesheet" href="csss/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/mainn.js" defer></script>
     <title>NVVN SDG's</title>
 </head>
@@ -20,8 +20,8 @@
         <i id="js--modalExit" class="fa-solid fa-arrow-left modalReturn"></i>
         <div class="modalDiv">
             <article class="modalDiv__article">
-                <h2 id="js--modalTitle" class="modalDiv__articleTitle">bhidsjoks</h2>
-                <p class="modalDiv__articleIntro">we stay cool hbusijd</p>
+                <h2 id="js--modalTitle" class="modalDiv__articleTitle"></h2>
+                <p class="modalDiv__articleIntro"></p>
                 <p class="modalDiv__articleInformation">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Velit, ipsam consequatur doloremque dolor aut placeat, 
