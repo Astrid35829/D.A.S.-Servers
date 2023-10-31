@@ -41,6 +41,7 @@
         align-items: center;
         gap: 4rem;
         padding: 10rem;
+        flex-direction: row-reverse;
 
         &__article{
             width: 50%;

@@ -89,3 +89,5 @@ modalExit.onclick = function(){
         modalHidden = true;
     }
 }};
+
+//modal randomizer
