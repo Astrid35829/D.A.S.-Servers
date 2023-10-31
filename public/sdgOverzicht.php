@@ -15,6 +15,29 @@
     <title>NVVN SDG's Page 2</title>
 </head>
 <body>
+    <section id="js--modal" class="modal">
+        <nav class="modalHeader"></nav>
+        <i id="js--modalExit" class="fa-solid fa-arrow-left modalReturn"></i>
+        <div class="modalDiv">
+            <article class="modalDiv__article">
+                <h2 id="js--modalTitle" class="modalDiv__articleTitle"></h2>
+                <p class="modalDiv__articleIntro"></p>
+                <p class="modalDiv__articleInformation">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Velit, ipsam consequatur doloremque dolor aut placeat, 
+                    fuga voluptas nostrum, corporis odit fugit! Laborum omnis 
+                    harum sunt facere dolorem deleniti. Delectus, eveniet.
+                </p>
+                <a class="modalDiv__articleLink" href="https://sdgs.un.org/goals" target="_blank">
+                    Klik hier voor meer informatie
+                </a>
+            </article>
+            <figure class="modalDiv__figure">
+                <img id="js--modalImage" src="" alt="" class="modalDiv__figureImg">
+            </figure>
+        </div>
+        <div class="modalFooter"></div>
+    </section>
     <nav class="nav">
         <img src="img/logoSDGs.png" alt="Een wiel met de sdg kleuren naast een tekst met The global Goals for sustainable development" class="nav__logo">
         <ul class="nav__list">
