@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -30,7 +31,7 @@ body {
   width: 100%;
   height: 10rem;
   padding: 2rem;
-  background: rgba(125, 197, 218, 0.6);
+  background: #7dc5da;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,6 +40,7 @@ body {
   left: 0;
   font-size: 2rem;
   font-family: "Barlow", sans-serif;
+  flex-wrap: wrap;
 }
 .nav__logo {
   width: 22rem;
@@ -58,12 +60,12 @@ body {
   color: white;
 }
 
-.nav__tab:hover {
-  color: #228c22;
-}
-
 .nav__tab:visited {
   color: white;
+}
+
+.nav__tab:hover {
+  color: green;
 }
 
 .header {
@@ -133,7 +135,7 @@ body {
 }
 .sdg__title {
   font-size: 4rem;
-  font-family: "Arimo", sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 .sdg__div {
   display: flex;
@@ -173,7 +175,7 @@ body {
   object-fit: contain;
 }
 .sdg__cardH2 {
-  font-size: "Arimo", sans-serif;
+  font-size: "Barlow", sans-serif;
   color: white;
   font-size: 2.5rem;
   text-align: center;
@@ -214,17 +216,19 @@ body {
 
 .over {
   width: 100%;
-  height: 40rem;
+  height: auto;
   padding: 4rem;
-  background: lightblue;
+  background: #7dc5da;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 4rem;
   font-size: 1.5rem;
+  border-radius: 0.5rem;
 }
 .over__text {
   width: 60%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -241,7 +245,7 @@ body {
 
 .footer {
   width: 100%;
-  height: 15rem;
+  height: auto;
   padding: 4rem;
   background: #7dc5da;
   display: flex;
@@ -249,11 +253,21 @@ body {
   align-items: center;
   justify-content: space-evenly;
   font-size: 1.5rem;
+  flex-wrap: wrap;
+  flex-grow: 1;
 }
-
 .footer__logo {
   width: 20rem;
   height: 7rem;
+}
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer h2 {
+  font-family: "Barlow", sans-serif;
 }
 
 .logo__img {
@@ -261,10 +275,52 @@ body {
   height: 7rem;
 }
 
+.footer__email {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 15rem;
+}
+
+.email__a {
+  text-decoration: none;
+  color: black;
+}
+
+.email__a:hover {
+  cursor: pointer;
+}
+
+.email__a:visited {
+  color: black;
+}
+
+.footer__adres {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 15rem;
+}
+
 .footer__social {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+  width: 40rem;
+}
+
+.social__a {
+  text-decoration: none;
+}
+
+.social__a:hover {
+  cursor: pointer;
+}
+
+.social__a:visited {
+  color: black;
 }
 
 .social__logo {
@@ -319,7 +375,7 @@ body {
 }
 .modalDiv__articleTitle {
   font-size: 400%;
-  font-family: "Arimo", sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 .modalDiv__articleIntro {
   font-size: 250%;
