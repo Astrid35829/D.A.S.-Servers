@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js" defer></script>
     <title>NVVN SDG's</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/cirkelSDGs.png" />
 </head>
 <body>
     <section id="js--modal" class="modal">
@@ -51,6 +52,7 @@
     <header id="game" class="header">
         <div class="header__div">
             <h1 class="header__divH1"></h1>
+            <img src="img/cirkelSDGs.png" alt="" class="header__img">
             <button class="cta">klick hier!</button>
         </div>
     </header>
@@ -73,17 +75,58 @@
         <section id="over" class="over">
             <article class="over__text">
                 <h2 class="over__h2">Over</h2>
-                <p class="over__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Assumenda dicta eos cupiditate deserunt ipsa magni! 
-                    Laudantium in doloremque nam quam, ratione nobis ut, 
-                    eveniet aliquam tempore sequi tenetur excepturi perferendis.
+                <p class="over__p">
+                In de wereld van vandaag staan we voor grote uitdagingen: 
+                armoede, honger, ongelijkheid, 
+                klimaatverandering en de biodiversiteitscrisis zijn slechts enkele van de problemen die we dringend moeten aanpakken.
+                </p>
+                <p class="over__p">
+                    Grote uitdagingen vereisen gedurfde actie om ze te overwinnen, 
+                    en dat is waar de Sustainable Development Goals om de hoek komen kijken. 
+                    Ze zijn ontwikkeld om tegen 2030 een groenere, eerlijkere en betere wereld te bouwen, 
+                    en we hebben allemaal een rol bij het bereiken ervan.
+                </p>
+                <p class="over__p">
+                Met deze doelen willen we in 2030 een duurzame wereld voor iedereen bereiken, 
+                waarin niemand wordt buitengesloten. In 2015 hebben alle 193 landen die lid zijn van de Verenigde Naties (VN) de Sustainable Development Goals aangenomen. 
+                De doelen gelden voor alle landen en voor alle mensen. 
                 </p>
             </article>
-            <img src="img/cirkelSDGs.png" alt="" class="over__img">
+            <img src="img/uitlegSDGs.png" alt="" class="over__img">
         </section>
     </main>
     <footer id="contact" class="footer">
-
+        <figure class="footer__logo">
+            <img src="img/logoSDGs.png" alt="" class="logo__img">
+        </figure>
+        <article class="footer__email">
+            <h2 class="email__h2">Vragen?</h2>
+            <p class="email__p">Stuur een email naar  <a href = "mailto: info@nvvn.nl">info@nvvn.nl</a></p>
+        </article>
+        <article class="footer__adres">
+            <h2 class="adres__h2">Voor bezoek</h2>
+            <p class="adres__p">NVVN</p>
+            <p class="adres__p">Eisenhowerlaan 128</p>
+            <p class="adress__p">3527HJ Utrecht</p>
+        </article>
+        <article class="footer__social">
+            <div class="social__facebook">
+                <i class="fa-brands fa-facebook social__logo"></i>
+                <a href="https://www.facebook.com/UNANetherlands" class="social__a">Nederlandse Vereniging voor de Verenigde Naties</a>
+            </div>
+            <div class="social__instagram">
+                <i class="fa-brands fa-instagram social__logo"></i>
+                <a href="https://www.instagram.com/nederlandse_vereniging_vn/" class="social__a">nederlandse_vereniging_vn</a>
+            </div>
+            <div class="social__linkedin">
+                <i class="fa-brands fa-linkedin social__logo"></i>
+                <a href="https://www.linkedin.com/company/nederlandse-vereniging-voor-de-verenigde-naties/" class="social__a">Nederlandse Vereniging voor de Verenigde Naties</a>
+            </div>
+            <div class="social__twitter">
+            <i class="fa-brands fa-twitter social__logo"></i>
+                <a href="https://twitter.com/UNANL" class="social__a">Dutch UN Association (NVVN) @UNANL</a>
+            </div>
+        </article>
     </footer>
 </body>
 </html>

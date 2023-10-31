@@ -34,14 +34,15 @@ body {
   justify-content: center;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
   top: 0;
   left: 0;
   font-size: 2rem;
-  font-family: "Barlow", sans-serif;
+  z-index: 1 !important;
 }
 .nav__logo {
-  width: 22rem;
-  height: 8rem;
+  width: 14rem;
+  height: 5rem;
 }
 .nav__list {
   width: 80%;
@@ -51,57 +52,31 @@ body {
   align-items: center;
   justify-content: space-evenly;
 }
-
 .nav__tab {
   text-decoration: none;
   color: white;
 }
-
 .nav__tab:hover {
   color: #228c22;
 }
-
 .nav__tab:visited {
   color: white;
 }
 
 .header {
-  background: radial-gradient(rgba(28, 203, 51, 0.9), #214021);
-  height: 80rem;
+  background: #add8e6;
+  height: 60rem;
   padding-top: 10rem;
+}
+
+.cta {
+  width: 5rem;
+  height: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  position: relative;
-}
-.header__img {
-  width: 50rem;
-  height: 50rem;
-  object-fit: contain;
-}
-
-.cta {
-  width: 20rem;
-  height: 12rem;
-  background: none;
-  border: solid 0.3rem rgb(0, 0, 0);
-  color: rgb(0, 0, 0);
-  border-radius: 0.5rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -15%);
-  font-size: 2rem;
-  font-weight: 600;
-  box-shadow: 0 1rem 1rem 0 rgba(13, 133, 29, 0.9);
-}
-
-.cta:hover {
-  background: #FFB000;
-  border: solid 0.3rem rgb(0, 0, 0);
-  color: rgb(0, 0, 0);
-  cursor: pointer;
+  background: black;
 }
 
 .sdg {
@@ -205,54 +180,24 @@ body {
   justify-content: center;
   align-items: center;
   gap: 4rem;
-  font-size: 1.5rem;
 }
 .over__text {
-  width: 60%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 2rem;
-}
-.over__h2 {
-  font-size: 3rem;
-  font-family: "Barlow", sans-serif;
+  gap: 4rem;
 }
 .over__img {
-  height: 30rem;
+  width: 20%;
 }
 
 .footer {
   width: 100%;
-  height: 15rem;
+  height: 6rem;
   padding: 4rem;
   background: #7dc5da;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-evenly;
-  font-size: 1.5rem;
-}
-
-.footer__logo {
-  width: 20rem;
-  height: 7rem;
-}
-
-.logo__img {
-  width: 20rem;
-  height: 7rem;
-}
-
-.footer__social {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.social__logo {
-  font-size: 2rem;
 }
 
 .modal {
@@ -319,7 +264,7 @@ body {
   color: #228c22;
 }
 .modalDiv__articleLink:hover {
-  color: #FFB000;
+  color: #1ccb33;
 }
 .modalDiv__figure {
   width: 50rem;
@@ -337,53 +282,6 @@ body {
   width: 100%;
   height: 6rem;
   background: #7dc5da;
-}
-
-.sdgOverzicht {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 3rem;
-  padding: 4rem;
-}
-.sdgOverzicht__card {
-  width: 25rem;
-  height: 30rem;
-  background: #7dc5da;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
-  border-radius: 0.5rem;
-  padding: 2rem;
-}
-.sdgOverzicht__cardFigure {
-  width: 10rem;
-  height: 10rem;
-}
-.sdgOverzicht__cardFigure--img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.sdgOverzicht__cardDiv {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.sdgOverzicht__cardDiv--title {
-  font-size: 250%;
-}
-.sdgOverzicht__cardDiv--intro {
-  font-size: 150%;
 }
 
 /*# sourceMappingURL=style.css.map */

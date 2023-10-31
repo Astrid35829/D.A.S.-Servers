@@ -1,3 +1,4 @@
+// modal sdg info
 const leftArrow = document.getElementById("js--arrowLeft");
 const rightArrow = document.getElementById("js--arrowRight");
 
@@ -30,6 +31,7 @@ leftArrow.onclick = function(){
     callPHPFuntion();
 };
 
+//modal
 const modal = document.getElementById("js--modal");
 const modalExit = document.getElementById("js--modalExit");
 

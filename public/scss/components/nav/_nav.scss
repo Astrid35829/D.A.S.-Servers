@@ -8,15 +8,14 @@
     background: colors.$mainColor--transparent;
     @include mixins.flexCenter;
     justify-content: space-between;
-    position: fixed;
     top: 0;
     left: 0;
     font-size: 2rem;
-    z-index: 1 !important;
+    font-family: 'Barlow', sans-serif;
 
     &__logo{
-        width: 14rem;
-        height: 5rem;
+        width: 22rem;
+        height: 8rem;
     }
 
     &__list{
@@ -25,17 +24,17 @@
         @include mixins.flexCenter;
         justify-content: space-evenly;
     }
+}
 
-    &__tab{
-        text-decoration: none;
-        color: colors.$fontColor;
-    }
+.nav__tab{
+    text-decoration: none;
+    color: colors.$fontColor;
+}
 
-    &__tab:hover{
-        color: colors.$accentColor;
-    }
+.nav__tab:hover{
+    color: colors.$accentColor;
+}
 
-    &__tab:visited{
-        color: colors.$fontColor;
-    }
+.nav__tab:visited{
+    color: colors.$fontColor;
 }
