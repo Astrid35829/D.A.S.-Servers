@@ -1,19 +1,32 @@
 @use "../../abstract/colors";
 @use "../../abstract/mixins";
+@use "../../abstract/fonts";
 
 .footer{
     width: 100%;
-    height: 15rem;
+    height: auto;
     padding: 4rem;
     background: colors.$mainColor;
     @include mixins.flexCenter;
     justify-content: space-evenly;
     font-size: 1.5rem;
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+    &__logo{
+        width: 20rem;
+        height: 7rem;
+    }
+
+    &__social{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
 }
 
-.footer__logo{
-    width: 20rem;
-    height: 7rem;
+.footer h2{
+    font-family: fonts.$h2Font;
 }
 
 .logo__img{
@@ -21,10 +34,46 @@
     height: 7rem;
 }
 
+.footer__email{
+    @include mixins.footerArticle;
+    width: 15rem;
+}
+
+.email__a{
+    text-decoration: none;
+    color: black;
+}
+
+.email__a:hover{
+    cursor: pointer;
+}
+
+.email__a:visited{
+    color: black;
+}
+
+.footer__adres{
+    @include mixins.footerArticle;
+    width: 15rem;
+}
+
 .footer__social{
+    @include mixins.footerArticle;
     display: flex;
-    flex-direction: column;
     gap: 0.5rem;
+    width: 40rem;
+}   
+
+.social__a{
+    text-decoration: none;
+}
+
+.social__a:hover{
+    cursor: pointer;
+}
+
+.social__a:visited{
+    color: black;
 }
 
 .social__logo{

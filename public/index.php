@@ -74,7 +74,7 @@
         </section>
         <section id="over" class="over">
             <article class="over__text">
-                <h2 class="over__h2">Over</h2>
+                <h2 class="over__h2">Wat zijn de SDG's</h2>
                 <p class="over__p">
                 In de wereld van vandaag staan we voor grote uitdagingen: 
                 armoede, honger, ongelijkheid, 
@@ -101,7 +101,7 @@
         </figure>
         <article class="footer__email">
             <h2 class="email__h2">Vragen?</h2>
-            <p class="email__p">Stuur een email naar  <a href = "mailto: info@nvvn.nl">info@nvvn.nl</a></p>
+            <p class="email__p">Stuur een email naar: <a class="email__a" href = "mailto: info@nvvn.nl">info@nvvn.nl</a></p>
         </article>
         <article class="footer__adres">
             <h2 class="adres__h2">Voor bezoek</h2>

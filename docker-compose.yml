@@ -55,8 +55,8 @@ services:
     image: phpmyadmin/phpmyadmin
     environment:
       PMA_HOST: mariadb
-      PMA_USER: db_user
-      PMA_PASSWORD: mijn_p@ss#
+      PMA_USER: root
+      PMA_PASSWORD: 4dy5qwtrsag#!sad
     ports:
       - "8088:80"
 
