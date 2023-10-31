@@ -92,13 +92,16 @@
                 De doelen gelden voor alle landen en voor alle mensen. 
                 </p>
             </article>
-            <img src="img/cirkelSDGs.png" alt="" class="over__img">
+            <img src="img/uitlegSDGs.png" alt="" class="over__img">
         </section>
     </main>
     <footer id="contact" class="footer">
+        <figure class="footer__logo">
+            <img src="img/logoSDGs.png" alt="" class="logo__img">
+        </figure>
         <article class="footer__email">
             <h2 class="email__h2">Vragen?</h2>
-            <p class="email__p">Stuur een email naar  <a href = "mailto: info@sdgnederland.nl">info@sdgnederland.nl</a></p>
+            <p class="email__p">Stuur een email naar  <a href = "mailto: info@nvvn.nl">info@nvvn.nl</a></p>
         </article>
         <article class="footer__adres">
             <h2 class="adres__h2">Voor bezoek</h2>
@@ -108,20 +111,20 @@
         </article>
         <article class="footer__social">
             <div class="social__facebook">
-                <i class="fa-brands fa-facebook"></i>
-                <a href="https://www.facebook.com/sdgnederland/">SDG Nederland</a>
+                <i class="fa-brands fa-facebook social__logo"></i>
+                <a href="https://www.facebook.com/UNANetherlands" class="social__a">Nederlandse Vereniging voor de Verenigde Naties</a>
             </div>
             <div class="social__instagram">
-                <i class="fa-brands fa-instagram"></i>
-                <a href="https://www.instagram.com/nederlandse_vereniging_vn/">nederlandse_vereniging_vn</a>
+                <i class="fa-brands fa-instagram social__logo"></i>
+                <a href="https://www.instagram.com/nederlandse_vereniging_vn/" class="social__a">nederlandse_vereniging_vn</a>
             </div>
             <div class="social__linkedin">
-                <i class="fa-brands fa-linkedin"></i>
-                <a href="https://www.linkedin.com/company/nederlandse-vereniging-voor-de-verenigde-naties/">Nederlandse Vereniging voor de Verenigde Naties</a>
+                <i class="fa-brands fa-linkedin social__logo"></i>
+                <a href="https://www.linkedin.com/company/nederlandse-vereniging-voor-de-verenigde-naties/" class="social__a">Nederlandse Vereniging voor de Verenigde Naties</a>
             </div>
             <div class="social__twitter">
-                <i class="fa-brands fa-x-twitter"></i>
-                <a href="https://twitter.com/SDGNederland">@SDGNederland</a>
+            <i class="fa-brands fa-twitter social__logo"></i>
+                <a href="https://twitter.com/UNANL" class="social__a">Dutch UN Association (NVVN) @UNANL</a>
             </div>
         </article>
     </footer>
