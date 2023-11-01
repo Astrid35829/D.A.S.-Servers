@@ -105,27 +105,35 @@
             <p class="email__p">Stuur een email naar: <a class="email__a" href = "mailto: info@nvvn.nl">info@nvvn.nl</a></p>
         </article>
         <article class="footer__adres">
-            <h2 class="adres__h2">Voor bezoek</h2>
+            <h2 class="adres__h2">Adres</h2>
             <p class="adres__p">NVVN</p>
             <p class="adres__p">Eisenhowerlaan 128</p>
             <p class="adress__p">3527HJ Utrecht</p>
         </article>
         <article class="footer__social">
             <div class="social__facebook">
-                <i class="fa-brands fa-facebook social__logo"></i>
-                <a href="https://www.facebook.com/UNANetherlands" class="social__a">Nederlandse Vereniging voor de Verenigde Naties</a>
+                <a href="https://www.facebook.com/UNANetherlands" class="social__a">
+                    <i class="fa-brands fa-facebook social__logo"></i>
+                    <p class="social__p">Nederlandse Vereniging voor de Verenigde Naties</p>
+                </a>
             </div>
             <div class="social__instagram">
-                <i class="fa-brands fa-instagram social__logo"></i>
-                <a href="https://www.instagram.com/nederlandse_vereniging_vn/" class="social__a">nederlandse_vereniging_vn</a>
+                <a href="https://www.instagram.com/nederlandse_vereniging_vn/" class="social__a">
+                    <i class="fa-brands fa-instagram social__logo"></i>
+                    <p class="social__p">nederlandse_vereniging_vn</p>
+                </a>
             </div>
             <div class="social__linkedin">
-                <i class="fa-brands fa-linkedin social__logo"></i>
-                <a href="https://www.linkedin.com/company/nederlandse-vereniging-voor-de-verenigde-naties/" class="social__a">Nederlandse Vereniging voor de Verenigde Naties</a>
+                <a href="https://www.linkedin.com/company/nederlandse-vereniging-voor-de-verenigde-naties/" class="social__a">
+                    <i class="fa-brands fa-linkedin social__logo"></i>    
+                    <p class="social__p">Nederlandse Vereniging voor de Verenigde Naties</p>
+                </a>
             </div>
             <div class="social__twitter">
-            <i class="fa-brands fa-twitter social__logo"></i>
-                <a href="https://twitter.com/UNANL" class="social__a">Dutch UN Association (NVVN) @UNANL</a>
+                <a href="https://twitter.com/UNANL" class="social__a">
+                <i class="fa-brands fa-twitter social__logo"></i>    
+                <p class="social__p">Dutch UN Association (NVVN)</p>
+                </a>
             </div>
         </article>
     </footer>

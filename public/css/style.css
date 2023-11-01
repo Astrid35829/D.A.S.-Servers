@@ -17,7 +17,7 @@ body {
 }
 
 .main {
-  height: 100%;
+  height: auto;
   width: 100%;
   padding: 6rem 8rem;
   gap: 6rem;
@@ -124,7 +124,7 @@ body {
 
 .sdg {
   width: 100%;
-  height: 40rem;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -138,6 +138,7 @@ body {
   font-family: "Barlow", sans-serif;
 }
 .sdg__div {
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,18 +146,19 @@ body {
 }
 .sdg__cards {
   width: 100%;
-  height: 35rem;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 3rem;
   padding: 2rem 8rem;
+  flex-wrap: wrap;
 }
 .sdg__card {
   position: relative;
   background: #7dc5da;
   width: 35rem;
-  height: 100%;
+  height: 35rem;
   border-radius: 2rem;
   padding: 4rem;
   display: flex;
@@ -255,6 +257,7 @@ body {
   font-size: 1.5rem;
   flex-wrap: wrap;
   flex-grow: 1;
+  gap: 2rem;
 }
 .footer__logo {
   width: 20rem;
@@ -308,11 +311,13 @@ body {
   gap: 0.5rem;
   display: flex;
   gap: 0.5rem;
-  width: 40rem;
+  width: auto;
 }
 
 .social__a {
   text-decoration: none;
+  display: flex;
+  gap: 0.5rem;
 }
 
 .social__a:hover {
@@ -325,6 +330,8 @@ body {
 
 .social__logo {
   font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .modal {
@@ -481,6 +488,31 @@ body {
 }
 .sdgOverzicht__cardDiv--intro {
   font-size: 150%;
+}
+
+@media screen and (max-width: 62.5rem) {
+  .nav {
+    flex-direction: column;
+  }
+  .nav__logo {
+    width: 13rem;
+    height: 5rem;
+  }
+  .nav__ .footer {
+    gap: 0.5rem;
+  }
+  .footer__social {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .social__logo {
+    width: 4rem;
+    height: 4rem;
+    font-size: 4rem;
+  }
+  .social__p {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
