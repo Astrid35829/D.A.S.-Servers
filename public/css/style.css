@@ -514,5 +514,11 @@ body {
     display: none;
   }
 }
+@media screen and (max-width: 37.5rem) {
+  .header__img {
+    width: 90vw;
+    object-fit: contain;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
