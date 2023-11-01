@@ -19,8 +19,8 @@
     <section id="js--modal" class="modal">
         <nav class="modalHeader"></nav>
         <i id="js--modalExit" class="fa-solid fa-arrow-left modalReturn"></i>
-        <div class="modalDiv">
-            <article class="modalDiv__article">
+        <div id="js--modalDiv" class="modalDiv">
+            <article id="js--modalArticle" class="modalDiv__article">
                 <h2 id="js--modalTitle" class="modalDiv__articleTitle"></h2>
                 <p class="modalDiv__articleIntro"></p>
                 <p class="modalDiv__articleInformation">
@@ -33,7 +33,7 @@
                     Klik hier voor meer informatie
                 </a>
             </article>
-            <figure class="modalDiv__figure">
+            <figure id="js--modalDiv__figure" class="modalDiv__figure">
                 <img id="js--modalImage" src="" alt="" class="modalDiv__figureImg">
             </figure>
         </div>
