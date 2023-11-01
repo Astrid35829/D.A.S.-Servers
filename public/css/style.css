@@ -515,8 +515,20 @@ body {
     width: 90vw;
     object-fit: contain;
   }
+  .main {
+    padding: 0rem;
+    padding-bottom: 6rem;
+  }
   .sdg__arrowsArrow {
     display: none;
+  }
+  .over {
+    padding: 0rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
+  .over__text {
+    width: 80%;
   }
   .over__img {
     display: none;
