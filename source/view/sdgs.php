@@ -16,7 +16,7 @@ $SDGLibary =
             "title"         => "Geen honger",
             "slug"          => "geen-honger",
             "introText"     => "Honger bestrijden",
-            "description"   => "De honger in de werel beëndigen",
+            "description"   => "De honger in de wereld beëndigen",
             "photo"         => "/img/cirkelSDGs.png",
             "URL"           => "https://sdgs.un.org/goals/goal2"
         ],
