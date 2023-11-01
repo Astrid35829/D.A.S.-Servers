@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js" defer></script>
     <title>NVVN SDG's</title>
-    <link rel="shortcut icon" type="image/x-icon" href="img/cirkelSDGs.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/cirkelSDGs.webp" />
 </head>
 <body>
     <section id="js--modal" class="modal">
@@ -40,7 +40,7 @@
         <div class="modalFooter"></div>
     </section>
     <nav class="nav">
-        <img src="img/logoSDGs.png" alt="Een wiel met de sdg kleuren naast een tekst met The global Goals for sustainable development" class="nav__logo">
+        <img src="img/logoSDGs.webp" alt="Een wiel met de sdg kleuren naast een tekst met The global Goals for sustainable development" class="nav__logo">
         <ul class="nav__list">
             <li class="nav__listItem"><a href="index.php" class="nav__tab">Home</a></li>
             <li class="nav__listItem"><a href="#game" class="nav__tab">Game</a></li>
@@ -52,7 +52,7 @@
     <header id="game" class="header">
         <div class="header__div">
             <h1 class="header__divH1"></h1>
-            <img src="img/cirkelSDGs.png" alt="" class="header__img">
+            <img src="img/cirkelSDGs.webp" alt="" class="header__img">
             <a class="cta" href="https://sdggame.nl/">speel hier!</a> 
         </div>
     </header>
@@ -92,12 +92,12 @@
                 De doelen gelden voor alle landen en voor alle mensen. 
                 </p>
             </article>
-            <img src="img/uitlegSDGs.png" alt="" class="over__img">
+            <img src="img/uitlegSDGs.webp" alt="" class="over__img">
         </section>
     </main>
     <footer id="contact" class="footer">
         <figure class="footer__logo">
-            <img src="img/logoSDGs.png" alt="" class="logo__img">
+            <img src="img/logoSDGs.webp" alt="" class="logo__img">
         </figure>
         <article class="footer__email">
             <h2 class="email__h2">Vragen?</h2>
