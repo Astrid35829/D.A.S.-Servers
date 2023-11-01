@@ -7,7 +7,7 @@ $SDGLibary =
             "title"         => "Geen armoede",
             "slug"          => "geen-armoede",
             "introText"     => "Armoede beëindigen",
-            "description"   => " Beëindig armoede in al haar vormen overal door inkomen, werkgelegenheid en sociale bescherming te bevorderen.",
+            "description"   => "Beëindig armoede in al haar vormen overal door inkomen, werkgelegenheid en sociale bescherming te bevorderen.",
             "photo"         => "/img/cirkelSDGs.png",
             "URL"           => "https://sdgs.un.org/goals/goal1"
         ],
@@ -52,7 +52,7 @@ $SDGLibary =
             "title"         => "Schoon water en sanitair",
             "slug"          => "schoon-water-en-sanitair",
             "introText"     => "Water en hygiëne",
-            "description"   => " Zorg voor toegang tot schoon water en sanitaire voorzieningen voor iedereen en beheer duurzaam waterbronnen.",
+            "description"   => "Zorg voor toegang tot schoon water en sanitaire voorzieningen voor iedereen en beheer duurzaam waterbronnen.",
             "photo"         => "/img/cirkelSDGs.png",
             "URL"           => "https://sdgs.un.org/goals/goal6"
         ],

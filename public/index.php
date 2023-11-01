@@ -19,8 +19,8 @@
     <section id="js--modal" class="modal">
         <nav class="modalHeader"></nav>
         <i id="js--modalExit" class="fa-solid fa-arrow-left modalReturn"></i>
-        <div class="modalDiv">
-            <article class="modalDiv__article">
+        <div id="js--modalDiv" class="modalDiv">
+            <article id="js--modalArticle" class="modalDiv__article">
                 <h2 id="js--modalTitle" class="modalDiv__articleTitle"></h2>
                 <p class="modalDiv__articleIntro"></p>
                 <p class="modalDiv__articleInformation">
@@ -33,7 +33,7 @@
                     Klik hier voor meer informatie
                 </a>
             </article>
-            <figure class="modalDiv__figure">
+            <figure id="js--modalDiv__figure" class="modalDiv__figure">
                 <img id="js--modalImage" src="" alt="" class="modalDiv__figureImg">
             </figure>
         </div>
@@ -54,7 +54,6 @@
             <h1 class="header__divH1"></h1>
             <img src="img/cirkelSDGs.png" alt="" class="header__img">
             <a class="cta" href="https://sdggame.nl/">speel hier!</a> 
-          
         </div>
     </header>
     <main class="main">
@@ -105,27 +104,35 @@
             <p class="email__p">Stuur een email naar: <a class="email__a" href = "mailto: info@nvvn.nl">info@nvvn.nl</a></p>
         </article>
         <article class="footer__adres">
-            <h2 class="adres__h2">Voor bezoek</h2>
+            <h2 class="adres__h2">Adres</h2>
             <p class="adres__p">NVVN</p>
             <p class="adres__p">Eisenhowerlaan 128</p>
             <p class="adress__p">3527HJ Utrecht</p>
         </article>
         <article class="footer__social">
             <div class="social__facebook">
-                <i class="fa-brands fa-facebook social__logo"></i>
-                <a href="https://www.facebook.com/UNANetherlands" class="social__a">Nederlandse Vereniging voor de Verenigde Naties</a>
+                <a href="https://www.facebook.com/UNANetherlands" class="social__a">
+                    <i class="fa-brands fa-facebook social__logo"></i>
+                    <p class="social__p">Nederlandse Vereniging voor de Verenigde Naties</p>
+                </a>
             </div>
             <div class="social__instagram">
-                <i class="fa-brands fa-instagram social__logo"></i>
-                <a href="https://www.instagram.com/nederlandse_vereniging_vn/" class="social__a">nederlandse_vereniging_vn</a>
+                <a href="https://www.instagram.com/nederlandse_vereniging_vn/" class="social__a">
+                    <i class="fa-brands fa-instagram social__logo"></i>
+                    <p class="social__p">nederlandse_vereniging_vn</p>
+                </a>
             </div>
             <div class="social__linkedin">
-                <i class="fa-brands fa-linkedin social__logo"></i>
-                <a href="https://www.linkedin.com/company/nederlandse-vereniging-voor-de-verenigde-naties/" class="social__a">Nederlandse Vereniging voor de Verenigde Naties</a>
+                <a href="https://www.linkedin.com/company/nederlandse-vereniging-voor-de-verenigde-naties/" class="social__a">
+                    <i class="fa-brands fa-linkedin social__logo"></i>    
+                    <p class="social__p">Nederlandse Vereniging voor de Verenigde Naties</p>
+                </a>
             </div>
             <div class="social__twitter">
-            <i class="fa-brands fa-twitter social__logo"></i>
-                <a href="https://twitter.com/UNANL" class="social__a">Dutch UN Association (NVVN) @UNANL</a>
+                <a href="https://twitter.com/UNANL" class="social__a">
+                <i class="fa-brands fa-twitter social__logo"></i>    
+                <p class="social__p">Dutch UN Association (NVVN)</p>
+                </a>
             </div>
         </article>
     </footer>
