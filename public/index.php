@@ -54,7 +54,6 @@
             <h1 class="header__divH1"></h1>
             <img src="img/cirkelSDGs.png" alt="" class="header__img">
             <a class="cta" href="https://sdggame.nl/">speel hier!</a> 
-          
         </div>
     </header>
     <main class="main">

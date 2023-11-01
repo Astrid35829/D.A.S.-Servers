@@ -43,7 +43,7 @@ let modalImage = document.getElementById('js--modalImage');
 
 document.body.onclick = function(event){
     if (event.target.classList.contains('sdg__cardLink')){
-        if (modalHidden === true) {
+        if (modalHidden === true){
             document.getElementsByClassName("nav")[0].style.display = "none";
             document.getElementsByClassName("header")[0].style.display = "none";
             document.getElementsByClassName("main")[0].style.display = "none";
