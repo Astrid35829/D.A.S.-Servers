@@ -359,14 +359,15 @@ body {
 .modalDiv {
   width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 4rem;
-  padding: 10rem;
+  padding-top: 10rem;
 }
 .modalDiv__article {
   width: 50%;
-  height: 55%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -394,13 +395,13 @@ body {
   color: #FFB000;
 }
 .modalDiv__figure {
-  width: 50rem;
-  height: 50rem;
+  width: 30rem;
+  height: 30rem;
 }
 .modalDiv__figureImg {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 .modalFooter {
   position: absolute;
@@ -409,6 +410,30 @@ body {
   width: 100%;
   height: 6rem;
   background: #7dc5da;
+}
+
+.modalDiv2 {
+  flex-direction: row-reverse;
+}
+
+.modalDiv3 {
+  flex-direction: column-reverse;
+  gap: 2rem;
+}
+
+.modal__figure2 {
+  width: 15rem;
+  height: 15rem;
+}
+.modal__figure2Img2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal__article2 {
+  padding: 4rem;
+  gap: 1.5rem;
 }
 
 .sdgOverzicht {
