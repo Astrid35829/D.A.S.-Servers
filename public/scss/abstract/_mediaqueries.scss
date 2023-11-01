@@ -65,4 +65,40 @@
             object-fit: contain;
         }
     }
+    .sdg{
+        &__arrowsArrow{
+            display: none;
+        } 
+    }
+
+    .over{
+        &__img{
+            display: none;
+        }
+    }
+
+    .sdg{
+        &__card{
+            width: 20rem;
+            height: 20rem;
+            gap: 0rem;
+        }
+        
+        .sdg__cardH2{
+            font-size: 1.5rem;
+            font-weight: 150;
+        }
+
+        .sdg__card--intro{
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        &Img{
+            width: 5rem;
+            height: 5rem;
+        }
+    }
+
+
 }
