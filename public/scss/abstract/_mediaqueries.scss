@@ -65,13 +65,25 @@
             object-fit: contain;
         }
     }
-.sdg{
+
+    .main{
+        padding: 0rem;
+        padding-bottom: 6rem;
+    }
+
+    .sdg{
         &__arrowsArrow{
             display: none;
         } 
     }
 
     .over{
+        padding: 0rem;
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+        &__text{
+            width: 80%;
+        }
         &__img{
             display: none;
         }
