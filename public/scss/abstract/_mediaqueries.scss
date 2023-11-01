@@ -2,6 +2,36 @@
     .nav{
         flex-direction: column;
     }
+    .modal{
+        &Div{
+            &__article{
+                &Title{
+                    font-size: 2rem;
+                }
+                &Intro{
+                    font-size: 1rem;
+                }
+                &Information{
+                    font-size: 1rem;
+                }
+            }
+        }
+        &figure{
+            width: 8rem;
+            height: 8rem;
+        }
+    }
+    .modal__article2{
+        padding: 2rem
+    }
+    .modal__figure2{
+        width: 8rem;
+        height: 8rem;
+    }
+    .modal__figure3{
+        width: 5rem;
+        height: 5rem;
+    }
 
     .footer{
         gap:0.5rem;
@@ -21,6 +51,14 @@
 }
 
 @media screen and (max-width:37.5rem){
+    .nav{
+        font-size: 1rem;
+        gap: 1rem;
+    }
+    .nav__logo{
+        width: 10rem;
+        height: 3.5rem;
+    }
     .header {
         &__img{
             width: 90vw;

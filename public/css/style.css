@@ -177,13 +177,13 @@ body {
   object-fit: contain;
 }
 .sdg__cardH2 {
-  font-size: "Barlow", sans-serif;
+  font-family: "Barlow", sans-serif;
   color: white;
   font-size: 2.5rem;
   text-align: center;
 }
 .sdg__card--intro {
-  font-size: sans-serif;
+  font-family: sans-serif;
   color: white;
   font-size: 1.5rem;
   font-weight: 600;
@@ -494,6 +494,30 @@ body {
   .nav {
     flex-direction: column;
   }
+  .modalDiv__articleTitle {
+    font-size: 2rem;
+  }
+  .modalDiv__articleIntro {
+    font-size: 1rem;
+  }
+  .modalDiv__articleInformation {
+    font-size: 1rem;
+  }
+  .modalfigure {
+    width: 8rem;
+    height: 8rem;
+  }
+  .modal__article2 {
+    padding: 2rem;
+  }
+  .modal__figure2 {
+    width: 8rem;
+    height: 8rem;
+  }
+  .modal__figure3 {
+    width: 5rem;
+    height: 5rem;
+  }
   .footer {
     gap: 0.5rem;
   }
@@ -511,6 +535,14 @@ body {
   }
 }
 @media screen and (max-width: 37.5rem) {
+  .nav {
+    font-size: 1rem;
+    gap: 1rem;
+  }
+  .nav__logo {
+    width: 10rem;
+    height: 3.5rem;
+  }
   .header__img {
     width: 90vw;
     object-fit: contain;

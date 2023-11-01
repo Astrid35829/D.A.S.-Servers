@@ -61,14 +61,14 @@
         }
 
         &H2{
-            font-size: fonts.$h2Font;
+            font-family: fonts.$h2Font;
             color: colors.$fontColor;
             font-size: 2.5rem;
             text-align: center;
         }
 
         &--intro{
-            font-size: fonts.$pFont;
+            font-family: fonts.$pFont;
             color: colors.$fontColor;
             font-size: 1.5rem;
             font-weight: 600;
