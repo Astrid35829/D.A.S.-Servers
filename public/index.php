@@ -65,7 +65,7 @@
                     <?php 
                         include('../source/card.php');
                             for($i = 0; $i < 3; $i++){
-                                randomSDG();
+                                displaySDG();
                             }
                     ?>
                 </div>

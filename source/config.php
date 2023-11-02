@@ -5,7 +5,7 @@
     error_reporting(E_ALL);
 
     $connection = mysqli_connect($DB_HOST, $DB_USER, $DB_PASSWORD, $DB_NAME);
-    $sdg = 'SELECT * FROM sdgs ORDER BY title';
+    $sdg = "SELECT id, title, introText FROM sdgs";
     $stmt = $connection->prepare($sdg);
     $stmt->execute();
     $result = $stmt->get_result();
