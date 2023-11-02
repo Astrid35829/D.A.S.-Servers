@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js" defer></script>
     <title>NVVN SDG's</title>
-    <link rel="shortcut icon" type="image/x-icon" href="img/cirkelSDGs.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/cirkelSDGs.webp" />
 </head>
 <body>
     <section id="js--modal" class="modal">
@@ -40,7 +40,7 @@
         <div class="modalFooter"></div>
     </section>
     <nav class="nav">
-        <img src="img/logoSDGs.png" alt="Een wiel met de sdg kleuren naast een tekst met The global Goals for sustainable development" class="nav__logo">
+        <img src="img/logoSDGs.webp" alt="Een wiel met de sdg kleuren naast een tekst met The global Goals for sustainable development" class="nav__logo">
         <ul class="nav__list">
             <li class="nav__listItem"><a href="index.php" class="nav__tab">Home</a></li>
             <li class="nav__listItem"><a href="#game" class="nav__tab">Game</a></li>
@@ -52,7 +52,7 @@
     <header id="game" class="header">
         <div class="header__div">
             <h1 class="header__divH1"></h1>
-            <img src="img/cirkelSDGs.png" alt="" class="header__img">
+            <img src="img/cirkelSDGs.webp" alt="" class="header__img">
             <a class="cta" href="https://sdggame.nl/">speel hier!</a> 
         </div>
     </header>
@@ -92,39 +92,47 @@
                 De doelen gelden voor alle landen en voor alle mensen. 
                 </p>
             </article>
-            <img src="img/uitlegSDGs.png" alt="" class="over__img">
+            <img src="img/uitlegSDGs.webp" alt="" class="over__img">
         </section>
     </main>
     <footer id="contact" class="footer">
         <figure class="footer__logo">
-            <img src="img/logoSDGs.png" alt="" class="logo__img">
+            <img src="img/logoSDGs.webp" alt="" class="logo__img">
         </figure>
         <article class="footer__email">
             <h2 class="email__h2">Vragen?</h2>
             <p class="email__p">Stuur een email naar: <a class="email__a" href = "mailto: info@nvvn.nl">info@nvvn.nl</a></p>
         </article>
         <article class="footer__adres">
-            <h2 class="adres__h2">Voor bezoek</h2>
+            <h2 class="adres__h2">Adres</h2>
             <p class="adres__p">NVVN</p>
             <p class="adres__p">Eisenhowerlaan 128</p>
             <p class="adress__p">3527HJ Utrecht</p>
         </article>
         <article class="footer__social">
             <div class="social__facebook">
-                <i class="fa-brands fa-facebook social__logo"></i>
-                <a href="https://www.facebook.com/UNANetherlands" class="social__a">Nederlandse Vereniging voor de Verenigde Naties</a>
+                <a href="https://www.facebook.com/UNANetherlands" class="social__a">
+                    <i class="fa-brands fa-facebook social__logo"></i>
+                    <p class="social__p">Nederlandse Vereniging voor de Verenigde Naties</p>
+                </a>
             </div>
             <div class="social__instagram">
-                <i class="fa-brands fa-instagram social__logo"></i>
-                <a href="https://www.instagram.com/nederlandse_vereniging_vn/" class="social__a">nederlandse_vereniging_vn</a>
+                <a href="https://www.instagram.com/nederlandse_vereniging_vn/" class="social__a">
+                    <i class="fa-brands fa-instagram social__logo"></i>
+                    <p class="social__p">nederlandse_vereniging_vn</p>
+                </a>
             </div>
             <div class="social__linkedin">
-                <i class="fa-brands fa-linkedin social__logo"></i>
-                <a href="https://www.linkedin.com/company/nederlandse-vereniging-voor-de-verenigde-naties/" class="social__a">Nederlandse Vereniging voor de Verenigde Naties</a>
+                <a href="https://www.linkedin.com/company/nederlandse-vereniging-voor-de-verenigde-naties/" class="social__a">
+                    <i class="fa-brands fa-linkedin social__logo"></i>    
+                    <p class="social__p">Nederlandse Vereniging voor de Verenigde Naties</p>
+                </a>
             </div>
             <div class="social__twitter">
-            <i class="fa-brands fa-twitter social__logo"></i>
-                <a href="https://twitter.com/UNANL" class="social__a">Dutch UN Association (NVVN) @UNANL</a>
+                <a href="https://twitter.com/UNANL" class="social__a">
+                <i class="fa-brands fa-twitter social__logo"></i>    
+                <p class="social__p">Dutch UN Association (NVVN)</p>
+                </a>
             </div>
         </article>
     </footer>
