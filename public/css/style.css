@@ -142,10 +142,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
-  padding: 0 2rem;
-=======
->>>>>>> b906eb6c5be3e0f88ea82a879933f3db95ef42d7
 }
 .sdg__cards {
   width: 100%;
@@ -174,11 +170,7 @@ body {
   opacity: 1;
   transition: 0.2s;
 }
-<<<<<<< HEAD
-.sdg__cardImg {
-=======
 .sdg__card--photo {
->>>>>>> b906eb6c5be3e0f88ea82a879933f3db95ef42d7
   width: 10rem;
   height: 10rem;
   object-fit: contain;
@@ -510,11 +502,7 @@ body {
   .modalDiv__articleInformation {
     font-size: 1rem;
   }
-<<<<<<< HEAD
   ju .modalfigure {
-=======
-  .modalfigure {
->>>>>>> b906eb6c5be3e0f88ea82a879933f3db95ef42d7
     width: 8rem;
     height: 8rem;
   }
