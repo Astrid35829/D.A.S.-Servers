@@ -10,20 +10,29 @@
     //     echo '</article>';
     // };
 
-    function displaySDG(){
+    function displaySDG($limit = 3) {
         include 'config.php';
-        if ($result->num_rows > 0){
-            while($row = $result->fetch_assoc()){
-                echo '<article class="sdg__card" data-sdg-id="'.$row['id'].'">';
-                // echo '<img class="sdg__photo" src="'.$row['photo'].'">';
-                echo '<h2 class="sdg__cardH2">'.$row['title'].'</h2>';
-                echo '<p class="sdg__card--intro">'.$row['introText'].'</p>';
-                echo '<p class="sdg__cardLink">Klik hier voor meer informatie</p>';
-                echo '</article>';
+        $count = 0;
+    
+        if ($result->num_rows > 0) {
+            while ($row = $result->fetch_assoc()) {
+                if ($count < $limit) {
+                    echo '<article class="sdg__card" data-sdg-id="'.$row['id'].'">';
+                    // echo '<img class="sdg__photo" src="'.$row['photo'].'">';
+                    echo '<h2 class="sdg__cardH2">'.$row['title'].'</h2>';
+                    echo '<p class="sdg__card--intro">'.$row['introText'].'</p>';
+                    echo '<p class="sdg__cardLink">Klik hier voor meer informatie</p>';
+                    echo '</article>';
+                    $count++;
+                } else {
+                    break;
+                }
             }
-    }
-    $connection->close();
-};
+        }
+    
+        $connection->close();
+    };
+    
 
 
     if(isset($_POST['call']) && $_POST['call'] === 'displaySDG'){
