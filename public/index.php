@@ -63,10 +63,10 @@
                 <i id="js--arrowLeft" class="fa-solid fa-angle-left sdg__arrowsArrow"></i>
                 <div id="js--shuffle" class="sdg__cards">
                     <?php 
-                        include('../source/view/card.php');
-                        for($i = 0; $i < 3; $i++){
-                            randomSDG();
-                        }
+                        include('../source/card.php');
+                            for($i = 0; $i < 1; $i++){
+                                displaySDG();
+                            }
                     ?>
                 </div>
                 <i id="js--arrowRight" class="fa-solid fa-angle-right sdg__arrowsArrow"></i>

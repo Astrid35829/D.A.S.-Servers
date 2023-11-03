@@ -20,7 +20,7 @@ function callPHPFuntion(){
             document.getElementById("js--shuffle").innerHTML = response;
         }
     }
-    xhr.send("call=randomSDG()");
+    xhr.send("call=displaySDG()");
 };
 
 rightArrow.onclick = function(){
@@ -73,7 +73,7 @@ document.body.onclick = function(event){
                 const sdgId = sdgCard.getAttribute("data-sdg-id");
                 const sdgTitle = sdgCard.querySelector(".sdg__cardH2").textContent;
                 const sdgIntro = sdgCard.querySelector(".sdg__card--intro").textContent;
-                const sdgPhoto = sdgCard.querySelector(".sdg__cardImg");
+                const sdgPhoto = sdgCard.querySelector(".sdg__card--photo");
                 const sdgPhotoURL = sdgPhoto.getAttribute("src");
                 
                 modalImage.setAttribute("src", sdgPhotoURL);
@@ -99,13 +99,15 @@ document.body.onclick = function(event){
                         document.getElementsByClassName("modalDiv__articleIntro")[0].innerHTML = sdgIntro;
                         modalHidden = false;
                     }
-                };
+                }
             xhrModal.send();
             modalDiv.classlist = "modal";
             modalLogo.classList = "modalDiv__figureImg ";
             modalArticle.classList = "modalDiv__article";
-        };
-}};
+        }
+    }
+    document.getElementById("js--modal").style.display = "";
+};
 
 modalExit.onclick = function(){
     if(modalHidden === false){
