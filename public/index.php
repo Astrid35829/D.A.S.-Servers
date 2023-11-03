@@ -29,7 +29,7 @@
                     fuga voluptas nostrum, corporis odit fugit! Laborum omnis 
                     harum sunt facere dolorem deleniti. Delectus, eveniet.
                 </p>
-                <a class="modalDiv__articleLink" href="https://sdgs.un.org/goals" target="_blank">
+                <a id="js--modalURL" class="modalDiv__articleLink" href="https://sdgs.un.org/goals" target="_blank">
                     Klik hier voor meer informatie
                 </a>
             </article>

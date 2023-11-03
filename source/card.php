@@ -10,15 +10,16 @@
             }
             shuffle($sdgData);
             $selectedData = array_slice($sdgData, 0, $limit);
-
             foreach ($selectedData as $row){
                 $sdgImage = $row['photo'];
                 $base64Image = base64_encode($sdgImage);
-                echo '<article class="sdg__card" data-sdg-id="' . $row['id'] . '">';
-                echo '<img class="sdg__card--photo" src="data:image/webp;base64,' . $base64Image . '">';
-                echo '<h2 class="sdg__cardH2">' . $row['title'] . '</h2>';
-                echo '<p class="sdg__card--intro">' . $row['introText'] . '</p>';
+                echo '<article class="sdg__card" data-sdg-id="'.$row['id'].'">';
+                echo '<img class="sdg__card--photo" src="data:image/webp;base64,'.$base64Image.'">';
+                echo '<h2 class="sdg__cardH2">'.$row['title'].'</h2>';
+                echo '<p class="sdg__card--intro">'.$row['introText'].'</p>';
                 echo '<p class="sdg__cardLink">Klik hier voor meer informatie</p>';
+                echo '<p class="sdg__cardDescription" style="display: none;">'.$row['description'].'</p>';
+                echo '<p class="sdg__cardURL" style="display: none;">'.$row['URL'].'</p>';
                 echo '</article>';
             }
         }

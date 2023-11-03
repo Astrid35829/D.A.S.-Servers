@@ -75,9 +75,11 @@ document.body.onclick = function(event){
                 const sdgIntro = sdgCard.querySelector(".sdg__card--intro").textContent;
                 const sdgPhoto = sdgCard.querySelector(".sdg__card--photo");
                 const sdgPhotoURL = sdgPhoto.getAttribute("src");
-                
+                const sdgDescription = sdgCard.querySelector(".sdg__cardDescription").textContent;
+                const sdgURL = sdgCard.querySelector(".sdg__cardURL").textContent;
                 modalImage.setAttribute("src", sdgPhotoURL);
                 const modalTitle = document.getElementById("js--modalTitle");
+                document.getElementById("js--modalURL").setAttribute("href", sdgURL);
                 modalTitle.innerHTML = "";
                 const xhrModal = new XMLHttpRequest();
                 xhrModal.open("GET", "../../source/view/card.php/?sdg_id=" + sdgId, true);
@@ -97,12 +99,13 @@ document.body.onclick = function(event){
                         //console.log(modalResponse);
                         //console.log(modalTitle);
                         document.getElementsByClassName("modalDiv__articleIntro")[0].innerHTML = sdgIntro;
+                        document.getElementsByClassName("modalDiv__articleInformation")[0].innerHTML = sdgDescription;
                         modalHidden = false;
                     }
                 }
             xhrModal.send();
             modalDiv.classlist = "modal";
-            modalLogo.classList = "modalDiv__figureImg ";
+            modalLogo.classList = "modalDiv__figureImg";
             modalArticle.classList = "modalDiv__article";
         }
     }

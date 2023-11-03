@@ -60,7 +60,6 @@
         </section>
     </main>
     <footer id="contact" class="footer">
-
     </footer>
 </body>
 </html>
