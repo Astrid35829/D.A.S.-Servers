@@ -105,7 +105,7 @@ document.body.onclick = function(event){
             modalLogo.classList = "modalDiv__figureImg ";
             modalArticle.classList = "modalDiv__article";
         }
-}
+    }
     document.getElementById("js--modal").style.display = "";
 };
 
