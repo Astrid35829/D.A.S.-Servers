@@ -105,7 +105,6 @@ document.body.onclick = function(event){
                 }
             xhrModal.send();
             modalDiv.classlist = "modal";
-            modalLogo.classList = "modalDiv__figureImg";
             modalArticle.classList = "modalDiv__article";
         }
     }
@@ -135,6 +134,9 @@ darkmode.onclick = function(){
         document.getElementsByClassName("sdg__cardH2")[0].classList.add("DMsdg__cardH2");
         document.getElementsByClassName("sdg__card--intro")[0].classList.add("DMsdg__card--intro");
         document.getElementsByClassName("sdg__cardLink")[0].classList.add("DMsdg__cardLink");
+        document.getElementsByClassName("modalDiv__articleTitle")[0].classList.add("DMmodalDiv__articleTitle");
+        document.getElementsByClassName("modalDiv__articleIntro")[0].classList.add("DMmodalDiv__articleIntro");
+        document.getElementsByClassName("modalDiv__articleInformation")[0].classList.add("DMmodalDiv__articleInformation");
         darkmode.classList.remove("fa-moon");
         darkmode.classList.add("fa-sun");
         lightmode = false;
@@ -145,6 +147,9 @@ darkmode.onclick = function(){
         document.getElementsByClassName("sdg__cardH2")[0].classList.remove("DMsdg__cardH2");
         document.getElementsByClassName("sdg__card--intro")[0].classList.remove("DMsdg__card--intro");
         document.getElementsByClassName("sdg__cardLink")[0].classList.remove("DMsdg__cardLink");
+        document.getElementsByClassName("modalDiv__articleTitle")[0].classList.remove("DMmodalDiv__articleTitle");
+        document.getElementsByClassName("modalDiv__articleIntro")[0].classList.remove("DMmodalDiv__articleIntro");
+        document.getElementsByClassName("modalDiv__articleInformation")[0].classList.remove("DMmodalDiv__articleInformation");
         darkmode.classList.remove("fa-sun");
         darkmode.classList.add("fa-moon");
         lightmode = true;

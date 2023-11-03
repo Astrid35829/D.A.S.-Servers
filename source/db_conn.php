@@ -8,4 +8,4 @@
     $DB_USER = $envSettings['DB_USER'];
     $DB_PASSWORD = $envSettings['DB_PASSWORD'];
     $DB_HOST = $envSettings['DB_HOST'];
-?>  
+?>
