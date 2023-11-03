@@ -64,7 +64,7 @@
                 <div id="js--shuffle" class="sdg__cards">
                     <?php 
                         include('../source/card.php');
-                            for($i = 0; $i < 3; $i++){
+                            for($i = 0; $i < 1; $i++){
                                 displaySDG();
                             }
                     ?>

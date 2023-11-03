@@ -1,16 +1,32 @@
 <?php
 
+    // function displaySDG(){
+    //     include 'config.php';
+    //     echo '<article class="sdg__card" data-sdg-id="'.$sdgItem['id'].'">';
+    //     // echo '<img class="sdg__photo" src="'.$sdgItem['photo'].'">';
+    //     echo '<h2 class="sdg__cardH2">'.$sdgItem['title'].'</h2>';
+    //     echo '<p class="sdg__card--intro">'.$sdgItem['introText'].'</p>';
+    //     echo '<p class="sdg__cardLink">Klik hier voor meer informatie</p>';
+    //     echo '</article>';
+    // };
+
     function displaySDG(){
         include 'config.php';
-        echo '<article class="sdg__card" data-sdg-id="'.$sdgItem['id'].'">';
-        // echo '<img class="sdg__photo" src="'.$sdgItem['photo'].'">';
-        echo '<h2 class="sdg__cardH2">'.$sdgItem['title'].'</h2>';
-        echo '<p class="sdg__card--intro">'.$sdgItem['introText'].'</p>';
-        echo '<p class="sdg__cardLink">Klik hier voor meer informatie</p>';
-        echo '</article>';
-    };
+        if ($result->num_rows > 0){
+            while($row = $result->fetch_assoc()){
+                echo '<article class="sdg__card" data-sdg-id="'.$row['id'].'">';
+                // echo '<img class="sdg__photo" src="'.$row['photo'].'">';
+                echo '<h2 class="sdg__cardH2">'.$row['title'].'</h2>';
+                echo '<p class="sdg__card--intro">'.$row['introText'].'</p>';
+                echo '<p class="sdg__cardLink">Klik hier voor meer informatie</p>';
+                echo '</article>';
+            }
+    }
+    $connection->close();
+};
 
-    if(isset($_POST['call']) && $_POST['call'] === 'randomSDG'){
+
+    if(isset($_POST['call']) && $_POST['call'] === 'displaySDG'){
         displaySDG();
     };
 

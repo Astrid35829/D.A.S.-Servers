@@ -20,7 +20,7 @@ function callPHPFuntion(){
             document.getElementById("js--shuffle").innerHTML = response;
         }
     }
-    xhr.send("call=randomSDG()");
+    xhr.send("call=displaySDG()");
 };
 
 rightArrow.onclick = function(){
