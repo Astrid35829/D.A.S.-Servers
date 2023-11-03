@@ -1,22 +1,12 @@
 <?php
 
-    // function displaySDG(){
-    //     include 'config.php';
-    //     echo '<article class="sdg__card" data-sdg-id="'.$sdgItem['id'].'">';
-    //     // echo '<img class="sdg__photo" src="'.$sdgItem['photo'].'">';
-    //     echo '<h2 class="sdg__cardH2">'.$sdgItem['title'].'</h2>';
-    //     echo '<p class="sdg__card--intro">'.$sdgItem['introText'].'</p>';
-    //     echo '<p class="sdg__cardLink">Klik hier voor meer informatie</p>';
-    //     echo '</article>';
-    // };
-
-    function displaySDG($limit = 3) {
+    function displaySDG($limit = 3){
         include 'config.php';
         $count = 0;
     
-        if ($result->num_rows > 0) {
-            while ($row = $result->fetch_assoc()) {
-                if ($count < $limit) {
+        if ($result->num_rows > 0){
+            while ($row = $result->fetch_assoc()){
+                if ($count < $limit){
                     $sdgImage = $row['photo'];
                     $base64Image = base64_encode($sdgImage);
                     echo '<article class="sdg__card" data-sdg-id="'.$row['id'].'">';
@@ -26,7 +16,7 @@
                     echo '<p class="sdg__cardLink">Klik hier voor meer informatie</p>';
                     echo '</article>';
                     $count++;
-                } else {
+                } else{
                     break;
                 }
             }
