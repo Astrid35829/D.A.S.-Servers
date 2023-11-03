@@ -124,5 +124,29 @@ modalExit.onclick = function(){
     }
 }};
 
+//darkmode
 
-
+const darkmode = document.getElementById("js--darkmode");
+let lightmode = true;
+darkmode.onclick = function(){
+    if(lightmode === true){
+        document.getElementsByTagName("body")[0].classList.add("DMbody");
+        document.getElementsByClassName("sdg__title")[0].classList.add("DMsdg__title");
+        document.getElementsByClassName("sdg__cardH2")[0].classList.add("DMsdg__cardH2");
+        document.getElementsByClassName("sdg__card--intro")[0].classList.add("DMsdg__card--intro");
+        document.getElementsByClassName("sdg__cardLink")[0].classList.add("DMsdg__cardLink");
+        darkmode.classList.remove("fa-moon");
+        darkmode.classList.add("fa-sun");
+        lightmode = false;
+    }
+    else{
+        document.getElementsByTagName("body")[0].classList.remove("DMbody");
+        document.getElementsByClassName("sdg__title")[0].classList.remove("DMsdg__title");
+        document.getElementsByClassName("sdg__cardH2")[0].classList.remove("DMsdg__cardH2");
+        document.getElementsByClassName("sdg__card--intro")[0].classList.remove("DMsdg__card--intro");
+        document.getElementsByClassName("sdg__cardLink")[0].classList.remove("DMsdg__cardLink");
+        darkmode.classList.remove("fa-sun");
+        darkmode.classList.add("fa-moon");
+        lightmode = true;
+    }
+};

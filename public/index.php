@@ -48,6 +48,9 @@
             <li class="nav__listItem"><a href="#over" class="nav__tab">Over</a></li>
             <li class="nav__listItem"><a href="#contact" class="nav__tab">Contact</a></li>
         </ul>
+        <ul class="nav__functionsList">
+            <i id="js--darkmode" class="fa-solid fa-moon darkmode"></i>
+        </ul>
     </nav>
     <header id="game" class="header">
         <div class="header__div">
