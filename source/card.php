@@ -3,6 +3,7 @@
     function randomSDG(){
         include 'config.php';
         echo '<article class="sdg__card" data-sdg-id="'.$sdgItem['id'].'">';
+        echo '<img class="sdg__cardImg" href="SDG logo" src="'.$sdgItem['photo'].'">';
         echo '<h2 class="sdg__cardH2">'.$sdgItem['title'].'</h2>';
         echo '<p class="sdg__card--intro">'.$sdgItem['introText'].'</p>';
         echo '<p class="sdg__cardLink">Klik hier voor meer informatie</p>';
