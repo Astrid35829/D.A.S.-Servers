@@ -24,12 +24,8 @@
                 <h2 id="js--modalTitle" class="modalDiv__articleTitle"></h2>
                 <p class="modalDiv__articleIntro"></p>
                 <p class="modalDiv__articleInformation">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Velit, ipsam consequatur doloremque dolor aut placeat, 
-                    fuga voluptas nostrum, corporis odit fugit! Laborum omnis 
-                    harum sunt facere dolorem deleniti. Delectus, eveniet.
                 </p>
-                <a class="modalDiv__articleLink" href="https://sdgs.un.org/goals" target="_blank">
+                <a id="js--modalURL" class="modalDiv__articleLink" href="https://sdgs.un.org/goals" target="_blank">
                     Klik hier voor meer informatie
                 </a>
             </article>
@@ -48,6 +44,9 @@
             <li class="nav__listItem"><a href="#over" class="nav__tab">Over</a></li>
             <li class="nav__listItem"><a href="#contact" class="nav__tab">Contact</a></li>
         </ul>
+        <ul class="nav__functionsList">
+            <i id="js--darkmode" class="fa-solid fa-moon darkmode"></i>
+        </ul>
     </nav>
     <header id="game" class="header">
         <div class="header__div">
@@ -64,8 +63,8 @@
                 <div id="js--shuffle" class="sdg__cards">
                     <?php 
                         include('../source/card.php');
-                            for($i = 0; $i < 3; $i++){
-                                randomSDG();
+                            for($i = 0; $i < 1; $i++){
+                                displaySDG();
                             }
                     ?>
                 </div>

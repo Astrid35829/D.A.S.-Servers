@@ -8,7 +8,7 @@ $SDGLibary =
             "slug"          => "geen-armoede",
             "introText"     => "Armoede beëindigen",
             "description"   => "Beëindig armoede in al haar vormen overal door inkomen, werkgelegenheid en sociale bescherming te bevorderen.",
-            "photo"         => "/img/cirkelSDGs.png",
+            "photo"         => "/img/cirkelSDGs.webp",
             "URL"           => "https://sdgs.un.org/goals/goal1"
         ],
         [
@@ -17,7 +17,7 @@ $SDGLibary =
             "slug"          => "geen-honger",
             "introText"     => "Honger bestrijden",
             "description"   => "De honger in de wereld beëndigen",
-            "photo"         => "/img/cirkelSDGs.png",
+            "photo"         => "/img/cirkelSDGs.webp",
             "URL"           => "https://sdgs.un.org/goals/goal2"
         ],
         [
@@ -26,7 +26,7 @@ $SDGLibary =
             "slug"          => "goede-gezondheid-en-welzijn",
             "introText"     => "Gezondheid voor iedereen",
             "description"   => "Zorg voor een gezond leven en promoot welzijn voor iedereen, met de nadruk op gezondheidszorg en ziektepreventie.",
-            "photo"         => "/img/cirkelSDGs.png",
+            "photo"         => "/img/cirkelSDGs.webp",
             "URL"           => "https://sdgs.un.org/goals/goal3"
         ],
         [
@@ -35,7 +35,7 @@ $SDGLibary =
             "slug"          => "kwaliteitsonderwijs",
             "introText"     => "Onderwijs voor allen",
             "description"   => "Zorg voor inclusief en gelijkwaardig kwaliteitsonderwijs en bevorder levenslang leren voor iedereen.",
-            "photo"         => "/img/cirkelSDGs.png",
+            "photo"         => "/img/cirkelSDGs.webp",
             "URL"           => "https://sdgs.un.org/goals/goal4"
         ],
         [
@@ -44,7 +44,7 @@ $SDGLibary =
             "slug"          => "gendergelijkheid",
             "introText"     => "Gelijkheid van geslachten",
             "description"   => "Bereik gendergelijkheid",
-            "photo"         => "/img/cirkelSDGs.png",
+            "photo"         => "/img/cirkelSDGs.webp",
             "URL"           => "https://sdgs.un.org/goals/goal5"
         ],
         [
@@ -53,7 +53,7 @@ $SDGLibary =
             "slug"          => "schoon-water-en-sanitair",
             "introText"     => "Water en hygiëne",
             "description"   => "Zorg voor toegang tot schoon water en sanitaire voorzieningen voor iedereen en beheer duurzaam waterbronnen.",
-            "photo"         => "/img/cirkelSDGs.png",
+            "photo"         => "/img/cirkelSDGs.webp",
             "URL"           => "https://sdgs.un.org/goals/goal6"
         ],
         [
@@ -62,7 +62,7 @@ $SDGLibary =
             "slug"          => "betaalbare-en-schone-energie",
             "introText"     => "Schone energie",
             "description"   => "Zorg voor betaalbare, betrouwbare, duurzame en moderne energie voor iedereen.",
-            "photo"         => "/img/cirkelSDGs.png",
+            "photo"         => "/img/cirkelSDGs.webp",
             "URL"           => "https://sdgs.un.org/goals/goal7"
         ],
         [
@@ -71,7 +71,7 @@ $SDGLibary =
             "slug"          => "waardig-werk-en-economische-groei",
             "introText"     => "Economishe groei",
             "description"   => "Bevorder duurzame economische groei, volledige en productieve tewerkstelling en waardig werk voor iedereen.",
-            "photo"         => "/img/cirkelSDGs.png",
+            "photo"         => "/img/cirkelSDGs.webp",
             "URL"           => "https://sdgs.un.org/goals/goal8"
         ],
         [
@@ -80,7 +80,7 @@ $SDGLibary =
             "slug"          => "industrie-innovatie-en-infrastructuur",
             "introText"     => "Innovatie en structuur",
             "description"   => "Bouw veerkrachtige infrastructuur, bevorder inclusieve en duurzame industrialisatie en stimuleer innovatie.",
-            "photo"         => "/img/cirkelSDGs.png",
+            "photo"         => "/img/cirkelSDGs.webp",
             "URL"           => "https://sdgs.un.org/goals/goal9"
         ],
         [
@@ -89,7 +89,7 @@ $SDGLibary =
             "slug"          => "ongelijkheidsreductie",
             "introText"     => "Verminder ongelijkerheid",
             "description"   => "Verminder ongelijkheid binnen en tussen landen door beleid dat iedereen opneemt.",
-            "photo"         => "/img/cirkelSDGs.png",
+            "photo"         => "/img/cirkelSDGs.webp",
             "URL"           => "https://sdgs.un.org/goals/goal10"
         ],
         [
@@ -98,7 +98,7 @@ $SDGLibary =
             "slug"          => "duurzame-steden-en-gemeenschappen",
             "introText"     => "Duurzame steden",
             "description"   => "Maak steden inclusief, veilig, veerkrachtig en duurzaam.",
-            "photo"         => "/img/cirkelSDGs.png",
+            "photo"         => "/img/cirkelSDGs.webp",
             "URL"           => "https://sdgs.un.org/goals/goal11"
         ],
         [
@@ -107,7 +107,7 @@ $SDGLibary =
             "slug"          => "verantwoorde-consumptie-en-productie",
             "introText"     => "Duurzame consumptie",
             "description"   => "Zorg voor duurzame consumptie en productiepatronen.",
-            "photo"         => "/img/cirkelSDGs.png",
+            "photo"         => "/img/cirkelSDGs.webp",
             "URL"           => "https://sdgs.un.org/goals/goal12"
         ],
         [
@@ -116,7 +116,7 @@ $SDGLibary =
             "slug"          => "klimaatactie",
             "introText"     => "Bestrijd klimaatverandering",
             "description"   => "Neem dringende maatregelen om klimaatverandering en de effecten ervan aan te pakken.",
-            "photo"         => "/img/cirkelSDGs.png",
+            "photo"         => "/img/cirkelSDGs.webp",
             "URL"           => "https://sdgs.un.org/goals/goal13"
         ],
         [
@@ -125,7 +125,7 @@ $SDGLibary =
             "slug"          => "leven-in-het-water",
             "introText"     => "Behoud oceaanleven",
             "description"   => "Behoud en duurzaam gebruik van oceanen, zeeën en mariene hulpbronnen.",
-            "photo"         => "/img/cirkelSDGs.png",
+            "photo"         => "/img/cirkelSDGs.webp",
             "URL"           => "https://sdgs.un.org/goals/goal14"
         ],
         [
@@ -134,7 +134,7 @@ $SDGLibary =
             "slug"          => "leven-op-het-land",
             "introText"     => "Behoud landleven",
             "description"   => "Bescherm, herstel en bevorder duurzaam gebruik van ecosystemen op land.",
-            "photo"         => "/img/cirkelSDGs.png",
+            "photo"         => "/img/cirkelSDGs.webp",
             "URL"           => "https://sdgs.un.org/goals/goal15"
         ],
         [
@@ -143,7 +143,7 @@ $SDGLibary =
             "slug"          => "vrede-justitie-en-sterke-instellingen",
             "introText"     => "Vrede en rechtvaardigheid",
             "description"   => "Bevorder vreedzame en inclusieve samenlevingen voor duurzame ontwikkeling en zorg voor toegang tot justitie voor iedereen.",
-            "photo"         => "/img/cirkelSDGs.png",
+            "photo"         => "/img/cirkelSDGs.webp",
             "URL"           => "https://sdgs.un.org/goals/goal16"
         ],
         [
@@ -152,7 +152,7 @@ $SDGLibary =
             "slug"          => "partnerschap-om-doelstellingen-te-bereiken",
             "introText"     => "Samenwerking voor SDG's",
             "description"   => "Versterk de wereldwijde samenwerking voor duurzame ontwikkeling door middel van partnerschappen tussen overheden, het bedrijfsleven en de samenleving.",
-            "photo"         => "/img/cirkelSDGs.png",
+            "photo"         => "/img/cirkelSDGs.webp",
             "URL"           => "https://sdgs.un.org/goals/goal17"
         ],
     ];

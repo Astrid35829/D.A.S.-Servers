@@ -5,9 +5,10 @@
     error_reporting(E_ALL);
 
     $connection = mysqli_connect($DB_HOST, $DB_USER, $DB_PASSWORD, $DB_NAME);
-    $sdg = 'SELECT * FROM sdgs ORDER BY title';
-    $stmt = $connection->prepare($sdg);
-    $stmt->execute();
-    $result = $stmt->get_result();
+    $sql = "SELECT * FROM sdgs";
+    $query = $connection->prepare($sql);
+    $query->execute();
+    $result = $query->get_result();
     $sdgItem = mysqli_fetch_assoc($result);
+
 ?>

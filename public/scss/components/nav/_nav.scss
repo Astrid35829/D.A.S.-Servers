@@ -26,6 +26,10 @@
         @include mixins.flexCenter;
         justify-content: space-evenly;
     }
+
+    &__functionsList{
+        width: 2rem;
+    }
 }
 
 .nav__tab{
@@ -39,4 +43,15 @@
 
 .nav__tab:hover{
     color: green;
+}
+
+.darkmode{
+    font-size: 150%;
+    color: colors.$fontColor;
+    transition: 0.5s;
+
+    &:hover{
+        color: colors.$accentColor;
+        transition: 0.5s;
+    }
 }

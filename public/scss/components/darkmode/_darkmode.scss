@@ -1,0 +1,9 @@
+@use "../../abstract/colors";
+
+.DMbody{
+    background: colors.$DMbackground;
+}
+
+.DMsdg__title, .DMsdg__cardH2, .DMsdg__card--intro, .DMsdg__cardLink, .DMmodalDiv__articleTitle, .DMmodalDiv__articleIntro, .DMmodalDiv__articleInformation{
+    color: #eee;
+}

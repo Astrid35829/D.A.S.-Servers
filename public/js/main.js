@@ -20,7 +20,7 @@ function callPHPFuntion(){
             document.getElementById("js--shuffle").innerHTML = response;
         }
     }
-    xhr.send("call=randomSDG()");
+    xhr.send("call=displaySDG()");
 };
 
 rightArrow.onclick = function(){
@@ -73,11 +73,13 @@ document.body.onclick = function(event){
                 const sdgId = sdgCard.getAttribute("data-sdg-id");
                 const sdgTitle = sdgCard.querySelector(".sdg__cardH2").textContent;
                 const sdgIntro = sdgCard.querySelector(".sdg__card--intro").textContent;
-                const sdgPhoto = sdgCard.querySelector(".sdg__cardImg");
+                const sdgPhoto = sdgCard.querySelector(".sdg__card--photo");
                 const sdgPhotoURL = sdgPhoto.getAttribute("src");
-                
+                const sdgDescription = sdgCard.querySelector(".sdg__cardDescription").textContent;
+                const sdgURL = sdgCard.querySelector(".sdg__cardURL").textContent;
                 modalImage.setAttribute("src", sdgPhotoURL);
                 const modalTitle = document.getElementById("js--modalTitle");
+                document.getElementById("js--modalURL").setAttribute("href", sdgURL);
                 modalTitle.innerHTML = "";
                 const xhrModal = new XMLHttpRequest();
                 xhrModal.open("GET", "../../source/view/card.php/?sdg_id=" + sdgId, true);
@@ -97,15 +99,17 @@ document.body.onclick = function(event){
                         //console.log(modalResponse);
                         //console.log(modalTitle);
                         document.getElementsByClassName("modalDiv__articleIntro")[0].innerHTML = sdgIntro;
+                        document.getElementsByClassName("modalDiv__articleInformation")[0].innerHTML = sdgDescription;
                         modalHidden = false;
                     }
-                };
+                }
             xhrModal.send();
             modalDiv.classlist = "modal";
-            modalLogo.classList = "modalDiv__figureImg ";
             modalArticle.classList = "modalDiv__article";
-        };
-}};
+        }
+    }
+    document.getElementById("js--modal").style.display = "";
+};
 
 modalExit.onclick = function(){
     if(modalHidden === false){
@@ -119,5 +123,35 @@ modalExit.onclick = function(){
     }
 }};
 
+//darkmode
 
-
+const darkmode = document.getElementById("js--darkmode");
+let lightmode = true;
+darkmode.onclick = function(){
+    if(lightmode === true){
+        document.getElementsByTagName("body")[0].classList.add("DMbody");
+        document.getElementsByClassName("sdg__title")[0].classList.add("DMsdg__title");
+        document.getElementsByClassName("sdg__cardH2")[0].classList.add("DMsdg__cardH2");
+        document.getElementsByClassName("sdg__card--intro")[0].classList.add("DMsdg__card--intro");
+        document.getElementsByClassName("sdg__cardLink")[0].classList.add("DMsdg__cardLink");
+        document.getElementsByClassName("modalDiv__articleTitle")[0].classList.add("DMmodalDiv__articleTitle");
+        document.getElementsByClassName("modalDiv__articleIntro")[0].classList.add("DMmodalDiv__articleIntro");
+        document.getElementsByClassName("modalDiv__articleInformation")[0].classList.add("DMmodalDiv__articleInformation");
+        darkmode.classList.remove("fa-moon");
+        darkmode.classList.add("fa-sun");
+        lightmode = false;
+    }
+    else{
+        document.getElementsByTagName("body")[0].classList.remove("DMbody");
+        document.getElementsByClassName("sdg__title")[0].classList.remove("DMsdg__title");
+        document.getElementsByClassName("sdg__cardH2")[0].classList.remove("DMsdg__cardH2");
+        document.getElementsByClassName("sdg__card--intro")[0].classList.remove("DMsdg__card--intro");
+        document.getElementsByClassName("sdg__cardLink")[0].classList.remove("DMsdg__cardLink");
+        document.getElementsByClassName("modalDiv__articleTitle")[0].classList.remove("DMmodalDiv__articleTitle");
+        document.getElementsByClassName("modalDiv__articleIntro")[0].classList.remove("DMmodalDiv__articleIntro");
+        document.getElementsByClassName("modalDiv__articleInformation")[0].classList.remove("DMmodalDiv__articleInformation");
+        darkmode.classList.remove("fa-sun");
+        darkmode.classList.add("fa-moon");
+        lightmode = true;
+    }
+};
