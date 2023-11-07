@@ -1,3 +1,7 @@
+.OZnav{
+    position: absolute;
+    top: 0;
+}
 .OZsdgItem{
     width: 100%;
     height: 100%;
@@ -5,6 +9,7 @@
     justify-content: space-around;
     align-content: center;
     gap: 2rem;
+    margin: 8rem 0rem;
 
     &__div{
         display: flex;
@@ -26,7 +31,6 @@
         }
     }
     &__figure{
-        background: yellow;
         width: 34rem;
         height: 34rem;
 
@@ -36,4 +40,9 @@
             object-fit: contain;
         }
     }
+}
+
+.OZfooter{
+    position: absolute;
+    bottom: 0;
 }

@@ -16,7 +16,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/cirkelSDGs.webp" />
 </head>
 <body>
-    <nav class="nav">
+    <nav class="nav OZnav">
         <img src="img/logoSDGs.webp" alt="Een wiel met de sdg kleuren naast een tekst met The global Goals for sustainable development" class="nav__logo">
         <ul class="nav__list">
             <li class="nav__listItem"><a href="index.php" class="nav__tab">Home</a></li>
@@ -30,11 +30,11 @@
         </ul>
     </nav>
     <main class="main">
-        <?php 
+        <?php
             include('../source/item.php');
         ?>
     </main>
-    <footer id="contact" class="footer">
+    <footer id="contact" class="footer OZfooter">
         <figure class="footer__logo">
             <img src="img/logoSDGs.webp" alt="" class="logo__img">
         </figure>

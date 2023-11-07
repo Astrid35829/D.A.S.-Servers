@@ -455,6 +455,11 @@ body {
   gap: 1.5rem;
 }
 
+.OZnav {
+  position: absolute;
+  top: 0;
+}
+
 .OZsdgItem {
   width: 100%;
   height: 100%;
@@ -462,6 +467,7 @@ body {
   justify-content: space-around;
   align-content: center;
   gap: 2rem;
+  margin: 8rem 0rem;
 }
 .OZsdgItem__div {
   display: flex;
@@ -482,7 +488,6 @@ body {
   font-size: 200%;
 }
 .OZsdgItem__figure {
-  background: yellow;
   width: 34rem;
   height: 34rem;
 }
@@ -490,6 +495,11 @@ body {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.OZfooter {
+  position: absolute;
+  bottom: 0;
 }
 
 @media screen and (max-width: 62.5rem) {
