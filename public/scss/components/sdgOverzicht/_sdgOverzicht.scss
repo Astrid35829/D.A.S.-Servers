@@ -5,7 +5,7 @@
     top: 0;
 }
 
-.OZsdgItem{
+.OZsdgItemOne{
     width: 100%;
     height: 100%;
     display: flex;
@@ -70,11 +70,146 @@
     }
 }
 
+.OZsdgItemTwo{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-around;
+    align-content: center;
+    gap: 2rem;
+    margin: 12rem 0rem;
+    position: relative;
+
+    &__button{
+        color: colors.$mainColor;
+        font-size: 500%;
+        text-decoration: none;
+        font-weight: 600;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-100%, -100%);
+    }
+
+    &__div{
+        grid-row: 1;
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 2rem;
+        width: 70%;
+        height: 100%;
+
+        &Title{
+            font-size: 400%;
+        }
+        &Intro{
+            font-size: 350%;
+        }
+        &Description{
+            font-size: 200%;
+        }
+        &Link{
+            color: colors.$accentColor;
+            font-size: 150%;
+            text-decoration: none;
+            transition: 0.2s;
+            font-weight: 600;
+
+            &:hover{
+                color: colors.$buttonColor;
+                text-decoration: underline;
+                transition: 0.2s;
+            }
+        }
+    }
+    &__figure{
+        grid-row: 1;
+        grid-column: 1;
+        width: 34rem;
+        height: 34rem;
+
+        &Img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}
+
+.OZsdgItemThree{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1 1fr;
+    justify-content: center;
+    align-content: center;
+    margin: 12rem 8rem;
+    position: relative;
+    
+    &__button{
+        color: colors.$mainColor;
+        font-size: 500%;
+        text-decoration: none;
+        font-weight: 600;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-100%, -100%);
+    }
+
+    &__div{
+        grid-row: 1;
+        grid-column: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 6rem;
+        width: 70%;
+        height: 100%;
+
+        &Title{
+            font-size: 400%;
+        }
+        &Intro{
+            font-size: 350%;
+        }
+        &Description{
+            font-size: 200%;
+        }
+        &Link{
+            color: colors.$accentColor;
+            font-size: 150%;
+            text-decoration: none;
+            transition: 0.2s;
+            font-weight: 600;
+
+            &:hover{
+                color: colors.$buttonColor;
+                text-decoration: underline;
+                transition: 0.2s;
+            }
+        }
+    }
+    &__figure{
+        grid-row: 1;
+        grid-column: 2;
+        width: 34rem;
+        height: 34rem;
+
+        &Img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}
 .OZfooter{
     position: absolute;
     bottom: 0;
-}
-
-.layoutTwo{
-    background: red;
 }

@@ -1,8 +1,6 @@
 <?php
-
     function displaySDG($limit = 3){
         include 'config.php';
-
         if ($result->num_rows > 0){
             $sdgData = [];
             while ($row = $result->fetch_assoc()){
@@ -18,8 +16,6 @@
                 echo '<h2 class="sdg__cardH2" data-sdg-id="'.$row['id'].'">'.$row['title'].'</h2>';
                 echo '<p class="sdg__card--intro" data-sdg-id="'.$row['id'].'">'.$row['introText'].'</p>';
                 echo '<a href="sdgOverzicht.php?sdgId='.$row['id'].'" class="sdg__cardLink" data-sdg-id="'.$row['id'].'">Klik hier voor meer informatie</a>';
-                echo '<p class="sdg__cardDescription" style="display: none;" data-sdg-id="'.$row['id'].'">'.$row['description'].'</p>';
-                echo '<p class="sdg__cardURL" style="display: none;" data-sdg-id="'.$row['id'].'">'.$row['URL'].'</p>';
                 echo '</article>';
             }
         }

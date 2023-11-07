@@ -62,3 +62,17 @@ darkmode.onclick = function(){
         lightmode = true;
     }
 };
+
+// const itemLayout = document.getElementsByClassName("OZsdgItem");
+// for(let i = 0; i < itemLayout.length; i++){
+//     itemLayout[i].onclick = function(){
+//         let layoutOne = "";
+//         let layoutTwo = "layoutTwo";
+//         let layoutThree = "layoutThree";
+        
+//         var layouts = [layoutOne, layoutTwo, layoutThree];
+//         let layoutvalue = layouts[Math.floor(Math.random() * layouts.length)];
+//         console.log(layoutvalue);
+//         itemLayout[i].classList.add(layoutvalue);
+//     }
+// };
