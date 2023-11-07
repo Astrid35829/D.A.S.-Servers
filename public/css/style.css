@@ -455,51 +455,41 @@ body {
   gap: 1.5rem;
 }
 
-.sdgOverzicht {
+.OZsdgItem {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 3rem;
-  padding: 4rem;
+  justify-content: space-around;
+  align-content: center;
+  gap: 2rem;
 }
-.sdgOverzicht__card {
-  width: 25rem;
-  height: 30rem;
-  background: #7dc5da;
-  color: white;
+.OZsdgItem__div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
-  border-radius: 0.5rem;
-  padding: 2rem;
+  justify-content: start;
+  align-items: start;
+  gap: 6rem;
+  width: 70%;
+  height: 100%;
 }
-.sdgOverzicht__cardFigure {
-  width: 10rem;
-  height: 10rem;
+.OZsdgItem__divTitle {
+  font-size: 400%;
 }
-.sdgOverzicht__cardFigure--img {
+.OZsdgItem__divIntro {
+  font-size: 350%;
+}
+.OZsdgItem__divDescription {
+  font-size: 200%;
+}
+.OZsdgItem__figure {
+  background: yellow;
+  width: 34rem;
+  height: 34rem;
+}
+.OZsdgItem__figureImg {
   width: 100%;
   height: 100%;
   object-fit: contain;
-}
-.sdgOverzicht__cardDiv {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.sdgOverzicht__cardDiv--title {
-  font-size: 250%;
-}
-.sdgOverzicht__cardDiv--intro {
-  font-size: 150%;
 }
 
 @media screen and (max-width: 62.5rem) {

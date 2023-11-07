@@ -14,12 +14,12 @@
                 $sdgImage = $row['photo'];
                 $base64Image = base64_encode($sdgImage);
                 echo '<article class="sdg__card" data-sdg-id="'.$row['id'].'">';
-                echo '<img class="sdg__card--photo" src="data:image/webp;base64,'.$base64Image.'">';
-                echo '<h2 class="sdg__cardH2">'.$row['title'].'</h2>';
-                echo '<p class="sdg__card--intro">'.$row['introText'].'</p>';
-                echo '<p class="sdg__cardLink">Klik hier voor meer informatie</p>';
-                echo '<p class="sdg__cardDescription" style="display: none;">'.$row['description'].'</p>';
-                echo '<p class="sdg__cardURL" style="display: none;">'.$row['URL'].'</p>';
+                echo '<img class="sdg__card--photo" src="data:image/webp;base64,'.$base64Image.'" data-sdg-id="'.$row['id'].'">';
+                echo '<h2 class="sdg__cardH2" data-sdg-id="'.$row['id'].'">'.$row['title'].'</h2>';
+                echo '<p class="sdg__card--intro" data-sdg-id="'.$row['id'].'">'.$row['introText'].'</p>';
+                echo '<a href="sdgOverzicht.php?sdgId='.$row['id'].'" class="sdg__cardLink" data-sdg-id="'.$row['id'].'">Klik hier voor meer informatie</a>';
+                echo '<p class="sdg__cardDescription" style="display: none;" data-sdg-id="'.$row['id'].'">'.$row['description'].'</p>';
+                echo '<p class="sdg__cardURL" style="display: none;" data-sdg-id="'.$row['id'].'">'.$row['URL'].'</p>';
                 echo '</article>';
             }
         }

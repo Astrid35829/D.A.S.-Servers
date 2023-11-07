@@ -16,25 +16,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/cirkelSDGs.webp" />
 </head>
 <body>
-    <section id="js--modal" class="modal">
-        <nav class="modalHeader"></nav>
-        <i id="js--modalExit" class="fa-solid fa-arrow-left modalReturn"></i>
-        <div id="js--modalDiv" class="modalDiv">
-            <article id="js--modalArticle" class="modalDiv__article">
-                <h2 id="js--modalTitle" class="modalDiv__articleTitle"></h2>
-                <p class="modalDiv__articleIntro"></p>
-                <p class="modalDiv__articleInformation">
-                </p>
-                <a id="js--modalURL" class="modalDiv__articleLink" href="https://sdgs.un.org/goals" target="_blank">
-                    Klik hier voor meer informatie
-                </a>
-            </article>
-            <figure id="js--modalDiv__figure" class="modalDiv__figure">
-                <img id="js--modalImage" src="" alt="" class="modalDiv__figureImg">
-            </figure>
-        </div>
-        <div class="modalFooter"></div>
-    </section>
     <nav class="nav">
         <img src="img/logoSDGs.webp" alt="Een wiel met de sdg kleuren naast een tekst met The global Goals for sustainable development" class="nav__logo">
         <ul class="nav__list">

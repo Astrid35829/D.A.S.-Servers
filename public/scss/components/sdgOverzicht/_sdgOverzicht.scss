@@ -1,54 +1,39 @@
-@use "../../abstract/colors";
-
-.sdgOverzicht{
+.OZsdgItem{
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 3rem;
-    padding: 4rem;
+    justify-content: space-around;
+    align-content: center;
+    gap: 2rem;
 
-    &__card{
-        width: 25rem;
-        height: 30rem;
-        background: colors.$mainColor;
-        color: colors.$fontColor;
+    &__div{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 4rem;
-        border-radius: 0.5rem;
-        padding: 2rem;
+        justify-content: start;
+        align-items: start;
+        gap: 6rem;
+        width: 70%;
+        height: 100%;
 
-        &Figure{
-            width: 10rem;
-            height: 10rem;
-
-            &--img{
-                width: 100%;
-                height: 100%;
-                object-fit: contain;
-            }
+        &Title{
+            font-size: 400%;
         }
+        &Intro{
+            font-size: 350%;
+        }
+        &Description{
+            font-size: 200%;
+        }
+    }
+    &__figure{
+        background: yellow;
+        width: 34rem;
+        height: 34rem;
 
-        &Div{
+        &Img{
             width: 100%;
             height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            &--title{
-                font-size: 250%;
-            }
-
-            &--intro{
-                font-size: 150%;
-            }
+            object-fit: contain;
         }
     }
 }
