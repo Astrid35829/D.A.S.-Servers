@@ -44,9 +44,7 @@
                 <div id="js--shuffle" class="sdg__cards">
                     <?php 
                         include('../source/card.php');
-                            for($i = 0; $i < 1; $i++){
-                                displaySDG();
-                            }
+                        displaySDG();
                     ?>
                 </div>
                 <i id="js--arrowRight" class="fa-solid fa-angle-right sdg__arrowsArrow"></i>
