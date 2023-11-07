@@ -10,6 +10,7 @@ if (isset($_GET['sdgId'])) {
         $itemPhoto = $row['photo'];
         $base64Image = base64_encode($itemPhoto);
         echo '<section class="OZsdgItem">';
+        echo '<a href="index.php" class="OZsdgItem__button"><i class="fa-solid fa-arrow-left"></i></a>';
         echo '<div class="OZsdgItem__div">';
         echo '<span class="OZsdgItem__divSpan">';
         echo '<h2 class="OZsdgItem__divTitle">'.$row['title'].'</h2>';

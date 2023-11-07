@@ -467,7 +467,18 @@ body {
   justify-content: space-around;
   align-content: center;
   gap: 2rem;
-  margin: 8rem 0rem;
+  margin: 12rem 0rem;
+  position: relative;
+}
+.OZsdgItem__button {
+  color: #7dc5da;
+  font-size: 500%;
+  text-decoration: none;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-100%, -100%);
 }
 .OZsdgItem__div {
   display: flex;
@@ -500,6 +511,10 @@ body {
 .OZfooter {
   position: absolute;
   bottom: 0;
+}
+
+.layoutTwo {
+  background: red;
 }
 
 @media screen and (max-width: 62.5rem) {
