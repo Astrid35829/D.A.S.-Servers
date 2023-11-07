@@ -62,16 +62,3 @@ darkmode.onclick = function(){
         lightmode = true;
     }
 };
-
-document.addEventListener("DOMContentLoaded", function(){
-const itemLayout = document.getElementsByClassName("OZsdgItem");
-for(let i = 0; i < itemLayout.length; i++){
-        let layoutOne = "";
-        let layoutTwo = "layoutTwo";
-        let layoutThree = "layoutThree";
-        
-        var layouts = [layoutOne, layoutTwo, layoutThree];
-        let layoutvalue = layouts[Math.floor(Math.random() * layouts.length)];
-        console.log(layoutvalue);
-        itemLayout[i].classList.add(layoutvalue);
-    }});
