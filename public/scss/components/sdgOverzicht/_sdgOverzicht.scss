@@ -44,6 +44,19 @@
         &Description{
             font-size: 200%;
         }
+        &Link{
+            color: colors.$accentColor;
+            font-size: 150%;
+            text-decoration: none;
+            transition: 0.2s;
+            font-weight: 600;
+
+            &:hover{
+                color: colors.$buttonColor;
+                text-decoration: underline;
+                transition: 0.2s;
+            }
+        }
     }
     &__figure{
         width: 34rem;

@@ -498,6 +498,18 @@ body {
 .OZsdgItem__divDescription {
   font-size: 200%;
 }
+.OZsdgItem__divLink {
+  color: #228c22;
+  font-size: 150%;
+  text-decoration: none;
+  transition: 0.2s;
+  font-weight: 600;
+}
+.OZsdgItem__divLink:hover {
+  color: #FFB000;
+  text-decoration: underline;
+  transition: 0.2s;
+}
 .OZsdgItem__figure {
   width: 34rem;
   height: 34rem;

@@ -17,7 +17,7 @@ if (isset($_GET['sdgId'])) {
         echo '<h2 class="OZsdgItem__divIntro">'.$row['introText'].'</h2>';
         echo '</span>';
         echo '<p class="OZsdgItem__divDescription">'.$row['description'].'</p>';
-        echo '<a href="'.$row['URL'].'" class="OZsdgItem__divLink"></a>';
+        echo '<a href="'.$row['URL'].'" class="OZsdgItem__divLink" target="_blank">Klik hier voor meer informatie</a>';
         echo '</div>';
         echo '<figure class="OZsdgItem__figure">';
         echo '<img src="data:image/webp;base64,'.$base64Image.'" alt="" class="OZsdgItem__figureImg">';
